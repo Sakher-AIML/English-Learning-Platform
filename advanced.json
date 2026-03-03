@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Conditionals",
+    "description": "Use zero, first, second, and third conditionals.",
+    "questions": [
+      {
+        "question": "If it rains, we ___ at home.",
+        "options": ["stayed", "stay", "would stay", "had stayed"],
+        "answer": "stay"
+      },
+      {
+        "question": "If I had known, I ___ you.",
+        "options": ["will call", "would call", "would have called", "called"],
+        "answer": "would have called"
+      },
+      {
+        "question": "Which is a second conditional sentence?",
+        "options": ["If I win, I will celebrate.", "If I were rich, I would travel.", "If water boils, it evaporates.", "If he had left early, he would have arrived on time."],
+        "answer": "If I were rich, I would travel."
+      },
+      {
+        "question": "Complete: If she studies, she ___ pass.",
+        "options": ["would", "had", "will", "would have"],
+        "answer": "will"
+      }
+    ]
+  },
+  {
+    "title": "Reported Speech",
+    "description": "Convert direct speech to reported speech.",
+    "questions": [
+      {
+        "question": "Direct: He said, 'I am tired.' Reported:",
+        "options": ["He said that he is tired.", "He said that he was tired.", "He says he tired.", "He told he was tired."],
+        "answer": "He said that he was tired."
+      },
+      {
+        "question": "Direct: She said, 'I can swim.' Reported:",
+        "options": ["She said she could swim.", "She said she can swim.", "She said she swam.", "She says she could swim."],
+        "answer": "She said she could swim."
+      },
+      {
+        "question": "Which reporting verb is correct? 'Come here,' he ___ me.",
+        "options": ["said", "told", "spoke", "talked"],
+        "answer": "told"
+      },
+      {
+        "question": "Time expression usually changes from 'today' to:",
+        "options": ["that day", "the day", "same day", "this day"],
+        "answer": "that day"
+      }
+    ]
+  },
+  {
+    "title": "Academic Vocabulary",
+    "description": "Understand advanced words in formal contexts.",
+    "questions": [
+      {
+        "question": "Choose the best synonym for 'analyze'.",
+        "options": ["ignore", "examine", "repeat", "create"],
+        "answer": "examine"
+      },
+      {
+        "question": "The results were ___ with the original hypothesis.",
+        "options": ["consistent", "casual", "optional", "uncertainly"],
+        "answer": "consistent"
+      },
+      {
+        "question": "Which word means 'brief and clear'?",
+        "options": ["complex", "concise", "vague", "lengthy"],
+        "answer": "concise"
+      },
+      {
+        "question": "The author used data to ___ the argument.",
+        "options": ["support", "doubt", "delay", "separate"],
+        "answer": "support"
+      }
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Past Tense Basics",
+    "description": "Use regular and irregular verbs in the past.",
+    "questions": [
+      {
+        "question": "Choose the past form of 'go'.",
+        "options": ["goed", "gone", "went", "goes"],
+        "answer": "went"
+      },
+      {
+        "question": "Complete: They ___ football yesterday.",
+        "options": ["play", "played", "playing", "plays"],
+        "answer": "played"
+      },
+      {
+        "question": "Which sentence is correct?",
+        "options": ["I buyed a book.", "I bought a book.", "I buying a book.", "I buys a book."],
+        "answer": "I bought a book."
+      },
+      {
+        "question": "Past tense of 'see' is:",
+        "options": ["saw", "seed", "seened", "see"],
+        "answer": "saw"
+      }
+    ]
+  },
+  {
+    "title": "Future Plans",
+    "description": "Practice 'will' and 'going to'.",
+    "questions": [
+      {
+        "question": "Choose the correct sentence.",
+        "options": ["I will to study.", "I will study.", "I will studied.", "I will studying."],
+        "answer": "I will study."
+      },
+      {
+        "question": "Complete: She is ___ visit her grandmother.",
+        "options": ["go", "going to", "will", "gone to"],
+        "answer": "going to"
+      },
+      {
+        "question": "Which one shows a promise?",
+        "options": ["I will help you.", "I helping you.", "I helped you.", "I help you yesterday."],
+        "answer": "I will help you."
+      },
+      {
+        "question": "Tomorrow we ___ a movie.",
+        "options": ["watch", "watched", "will watch", "watching"],
+        "answer": "will watch"
+      }
+    ]
+  },
+  {
+    "title": "Comparatives and Superlatives",
+    "description": "Compare people, places, and things.",
+    "questions": [
+      {
+        "question": "Choose the comparative form of 'fast'.",
+        "options": ["faster", "fastest", "more fast", "most fast"],
+        "answer": "faster"
+      },
+      {
+        "question": "Mount Everest is the ___ mountain in the world.",
+        "options": ["higher", "highest", "high", "more high"],
+        "answer": "highest"
+      },
+      {
+        "question": "My bag is ___ than your bag.",
+        "options": ["heavy", "heavier", "heaviest", "most heavy"],
+        "answer": "heavier"
+      },
+      {
+        "question": "Which sentence is correct?",
+        "options": ["This is the most cheap phone.", "This phone is cheaper than that one.", "This phone is cheap than that.", "This is cheaperest."],
+        "answer": "This phone is cheaper than that one."
+      }
+    ]
+  }
+]

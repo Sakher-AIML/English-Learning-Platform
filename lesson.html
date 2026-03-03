@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}{{ level_title }} Lessons — EnglishPath{% endblock %}
+
+{% block content %}
+<section class="card">
+    <p class="eyebrow">{{ level_title }} Level</p>
+    <h2>{% if level == 'beginner' %}🌱{% elif level == 'intermediate' %}💪{% else %}🚀{% endif %} {{ level_title }} Lessons</h2>
+    <p class="text-muted">Complete each lesson in order to unlock the next. Pass with 70% or higher to advance.</p>
+    <div class="toolbar">
+        <input id="lessonSearch" type="text" placeholder="🔍 Search lessons...">
+    </div>
+</section>
+
+<section class="lesson-list">
+    {% for item in lessons %}
+        <article class="card lesson-item {{ 'locked' if not item.unlocked else '' }} {{ 'completed-lesson' if item.completed else '' }}" data-lesson-title="{{ item.title|lower }}" data-lesson-desc="{{ item.description|lower }}">
+            <div class="lesson-info">
+                <div class="lesson-number">
+                    {% if item.completed %}✓{% else %}{{ item.index + 1 }}{% endif %}
+                </div>
+                <div>
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                </div>
+            </div>
+
+            <div class="lesson-actions">
+                {% if item.completed %}
+                    <span class="badge">✓ Done</span>
+                {% endif %}
+
+                {% if item.unlocked %}
+                    <a class="btn btn-primary" href="{{ url_for('exercise', level=level, lesson_index=item.index) }}">
+                        {% if item.completed %}Review{% else %}Practice{% endif %}
+                    </a>
+                {% else %}
+                    <button class="btn" disabled>🔒 Locked</button>
+                {% endif %}
+            </div>
+        </article>
+    {% endfor %}
+</section>
+
+<div style="margin-top:12px">
+    <a class="btn" href="{{ url_for('dashboard') }}">← Back to Dashboard</a>
+</div>
+{% endblock %}

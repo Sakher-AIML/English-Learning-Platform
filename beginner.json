@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Basic Greetings",
+    "description": "Learn simple daily greetings.",
+    "questions": [
+      {
+        "question": "Choose the correct greeting for the morning.",
+        "options": ["Good night", "Good morning", "Goodbye", "See you"],
+        "answer": "Good morning"
+      },
+      {
+        "question": "What do you say when meeting someone for the first time?",
+        "options": ["Thank you", "Nice to meet you", "Excuse me", "Good luck"],
+        "answer": "Nice to meet you"
+      },
+      {
+        "question": "Which one means farewell?",
+        "options": ["How are you?", "Hello", "Goodbye", "Welcome"],
+        "answer": "Goodbye"
+      },
+      {
+        "question": "Fill in: ___ are you?",
+        "options": ["What", "Who", "How", "When"],
+        "answer": "How"
+      }
+    ]
+  },
+  {
+    "title": "Numbers and Colors",
+    "description": "Recognize basic numbers and common colors.",
+    "questions": [
+      {
+        "question": "Which is the number 7?",
+        "options": ["Seven", "Eleven", "Seventeen", "Seventy"],
+        "answer": "Seven"
+      },
+      {
+        "question": "What color is the sky on a clear day?",
+        "options": ["Blue", "Green", "Brown", "Pink"],
+        "answer": "Blue"
+      },
+      {
+        "question": "Choose the correct spelling.",
+        "options": ["Yelow", "Yallow", "Yellow", "Yelloe"],
+        "answer": "Yellow"
+      },
+      {
+        "question": "Which number comes after 9?",
+        "options": ["8", "10", "11", "12"],
+        "answer": "10"
+      }
+    ]
+  },
+  {
+    "title": "Simple Sentences",
+    "description": "Build very basic English sentences.",
+    "questions": [
+      {
+        "question": "Choose the correct sentence.",
+        "options": ["She are happy.", "She is happy.", "She am happy.", "She be happy."],
+        "answer": "She is happy."
+      },
+      {
+        "question": "Fill in: I ___ a student.",
+        "options": ["is", "are", "am", "be"],
+        "answer": "am"
+      },
+      {
+        "question": "Pick the correct order.",
+        "options": ["English I learn", "I learn English", "Learn I English", "I English learn"],
+        "answer": "I learn English"
+      },
+      {
+        "question": "Which one is a question?",
+        "options": ["You like tea.", "Do you like tea?", "You do like tea.", "Like you tea."],
+        "answer": "Do you like tea?"
+      }
+    ]
+  }
+]

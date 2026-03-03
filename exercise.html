@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}{{ lesson_title }} — EnglishPath{% endblock %}
+
+{% block content %}
+<section class="card">
+    <p class="eyebrow">{{ level_title }} › Lesson {{ lesson_index + 1 }}</p>
+    <h2>{{ lesson_title }}</h2>
+    {% if result_mode %}
+        <div class="result-banner {{ 'result-pass' if passed else 'result-fail' }}">
+            <h3>{% if passed %}🎉{% else %}💪{% endif %} {{ percent }}% • {{ score }}/{{ total }} correct</h3>
+            <p>{% if passed %}Excellent work! You passed this lesson.{% else %}Don't give up! Review your mistakes below and try again.{% endif %}</p>
+        </div>
+    {% else %}
+        <p class="text-muted">Answer all {{ questions|length }} questions below, then submit to see your results.</p>
+    {% endif %}
+</section>
+
+<section class="card">
+    {% if result_mode %}
+        <div class="section-head">
+            <h3>📝 Answer Review</h3>
+        </div>
+        {% for item in answered_questions %}
+            <div class="question-block">
+                <p><strong>Q{{ loop.index }}.</strong> {{ item.question }}</p>
+                {% for option in item.options %}
+                    <label class="option-line {{ 'correct-option' if option == item.answer else '' }} {{ 'wrong-option' if option == item.picked and not item.is_correct else '' }}">
+                        {{ option }}
+                        {% if option == item.picked and not item.is_correct %}
+                            <span class="badge badge-danger" style="margin-left:auto;font-size:0.7rem">Your answer</span>
+                        {% elif option == item.picked and item.is_correct %}
+                            <span class="badge" style="margin-left:auto;font-size:0.7rem">✓ Correct</span>
+                        {% elif option == item.answer %}
+                            <span class="badge badge-primary" style="margin-left:auto;font-size:0.7rem">Correct answer</span>
+                        {% endif %}
+                    </label>
+                {% endfor %}
+            </div>
+        {% endfor %}
+
+        <div class="hero-actions" style="margin-top:24px">
+            <a class="btn" href="{{ url_for('exercise', level=level, lesson_index=lesson_index) }}">Try Again</a>
+            <a class="btn btn-primary" href="{{ url_for('lesson', level=level) }}">← Back to Lessons</a>
+        </div>
+    {% else %}
+        <form method="POST" id="quizForm">
+            <div class="quiz-meta">
+                <div class="progress-line">
+                    <span class="progress-fill" id="quizProgressFill" data-progress="0"></span>
+                </div>
+                <p id="quizProgressText" class="small">0 of {{ questions|length }} answered</p>
+            </div>
+
+            {% for question in questions %}
+                <div class="question-block">
+                    <p><strong>Q{{ loop.index }}.</strong> {{ question.question }}</p>
+
+                    {% for option in question.options %}
+                        <label class="option-line">
+                            <input type="radio" name="q_{{ loop.parent.index0 }}" value="{{ option }}" required>
+                            {{ option }}
+                        </label>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+
+            <button class="btn btn-primary" type="submit" style="margin-top:8px;width:100%">📨 Submit Answers</button>
+        </form>
+    {% endif %}
+</section>
+{% endblock %}
