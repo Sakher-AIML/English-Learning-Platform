@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block title %}Analytics — EnglishPath{% endblock %}
+
+{% block content %}
+<!-- Header -->
+<section class="card welcome-card">
+    <div>
+        <p class="eyebrow">Performance Analytics</p>
+        <h2>📈 {{ username }}'s Learning Stats</h2>
+        <p>Deep dive into your completion rates, accuracy, and recent trends.</p>
+    </div>
+    <div class="welcome-avatar">{{ username[0]|upper }}</div>
+</section>
+
+<!-- Top Stats -->
+<section class="stats-grid">
+    <article class="card stat-card">
+        <span class="stat-icon">🎯</span>
+        <p class="stat-label">Recent Average</p>
+        <h3 class="stat-value text-primary">{{ avg_recent }}%</h3>
+    </article>
+    <article class="card stat-card">
+        <span class="stat-icon">🔥</span>
+        <p class="stat-label">Daily Streak</p>
+        <h3 class="stat-value text-warning">{{ streak_days }} day{{ '' if streak_days == 1 else 's' }}</h3>
+    </article>
+</section>
+
+<!-- Level Breakdown -->
+<section class="card" style="background:transparent;border:none;box-shadow:none;padding:0">
+    <div class="section-head" style="margin-bottom:16px">
+        <h2 style="margin:0">🎓 Level Breakdown</h2>
+    </div>
+    <div class="level-grid">
+        {% for item in level_stats %}
+            <article class="card">
+                <h3>
+                    {% if loop.index == 1 %}🌱{% elif loop.index == 2 %}💪{% else %}🚀{% endif %}
+                    {{ item.title }}
+                </h3>
+
+                <p class="stat-label" style="margin-bottom:2px">Completion</p>
+                <div class="progress-line">
+                    <span class="progress-fill" data-progress="{{ item.completion }}"></span>
+                </div>
+                <p class="small mt-0">{{ item.completion }}%</p>
+
+                <p class="stat-label" style="margin-bottom:2px">Accuracy</p>
+                <div class="progress-line progress-success">
+                    <span class="progress-fill" data-progress="{{ item.accuracy }}"></span>
+                </div>
+                <p class="small mt-0">{{ item.accuracy }}%</p>
+
+                <p class="small mb-0">📖 {{ item.completed_lessons }} / {{ item.total_lessons }} lessons completed</p>
+            </article>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Attempt History -->
+<section class="card">
+    <div class="section-head">
+        <h3>🗓️ Attempt History</h3>
+        <a class="btn btn-ghost" href="{{ url_for('dashboard') }}">← Dashboard</a>
+    </div>
+    {% if recent_attempts %}
+        <div class="table-wrap">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Lesson</th>
+                        <th>Score</th>
+                        <th>Result</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for attempt in recent_attempts %}
+                        <tr>
+                            <td>{{ attempt.level.title() }}</td>
+                            <td>Lesson {{ attempt.lesson_index + 1 }}</td>
+                            <td>{{ attempt.percent }}%</td>
+                            <td>
+                                {% if attempt.passed %}
+                                    <span class="badge">✓ Passed</span>
+                                {% else %}
+                                    <span class="badge badge-danger">Failed</span>
+                                {% endif %}
+                            </td>
+                            <td>{{ attempt.attempted_at.replace('T', ' ') }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="small text-center">No attempts recorded yet. Complete a quiz to see your history.</p>
+    {% endif %}
+</section>
+{% endblock %}
