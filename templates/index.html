@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishPath — Master English Step by Step</title>
+    <meta name="description" content="Master English with structured levels, quizzes, and smart progress tracking.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-layer"></div>
+
+    <!-- ═══ TOPBAR ═══ -->
+    <header class="topbar">
+        <a class="brand" href="#" onclick="navigate('home');return false">
+            <span class="brand-icon">📘</span> EnglishPath
+        </a>
+        <nav id="mainNav"></nav>
+    </header>
+
+    <!-- ═══ FLASH MESSAGE ═══ -->
+    <div id="flashWrap" class="flash-wrap container" style="display:none;padding-bottom:0;margin-bottom:0"></div>
+
+    <!-- ═══ MAIN CONTENT ═══ -->
+    <main id="app" class="container"></main>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-links" id="footerLinks"></div>
+            <p>© 2026 EnglishPath — Built for learners, by learners.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
