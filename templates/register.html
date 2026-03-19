@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Register — EnglishPath{% endblock %}
+
+{% block content %}
+<section class="card form-card">
+    <p class="eyebrow">Start Your Journey</p>
+    <h2>Create Your Account</h2>
+    <form method="POST">
+        <label for="username">👤 Choose a Username</label>
+        <input id="username" type="text" name="username" placeholder="At least 3 characters" required>
+
+        <label for="password">🔒 Create a Password</label>
+        <input id="password" type="password" name="password" placeholder="At least 4 characters" required>
+
+        <button class="btn btn-primary" type="submit" style="margin-top:8px">🚀 Create Account</button>
+    </form>
+    <div class="divider">or</div>
+    <p class="small text-center" style="margin-top:0">Already have an account? <a href="{{ url_for('login') }}">Login here</a></p>
+</section>
+{% endblock %}
