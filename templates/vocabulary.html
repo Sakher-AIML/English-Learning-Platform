@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Vocabulary - EnglishPath{% endblock %}
+
+{% block content %}
+<section class="card">
+    <p class="eyebrow">Vocabulary Library</p>
+    <h2>📚 {{ level.title() }} Vocabulary</h2>
+    <p class="text-muted">Browse structured words with meanings and example sentences.</p>
+    <div class="hero-actions">
+        {% for level_name in levels %}
+            <a class="btn {{ 'btn-primary' if level_name == level else '' }}" href="{{ url_for('vocabulary', level=level_name) }}">{{ level_name.title() }}</a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="card">
+    <div class="section-head">
+        <h3>Word Bank</h3>
+        <span class="badge badge-accent">{{ words|length }} words</span>
+    </div>
+    <div class="toolbar">
+        <input id="vocabSearch" type="text" placeholder="🔍 Search word or meaning...">
+    </div>
+    <div class="table-wrap" style="margin-top:14px">
+        <table class="data-table" id="vocabTable">
+            <thead>
+                <tr>
+                    <th>Word</th>
+                    <th>Meaning</th>
+                    <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in words %}
+                    <tr data-word="{{ item.word|lower }}" data-meaning="{{ item.meaning|lower }}" data-example="{{ item.example|lower }}">
+                        <td>{{ item.word }}</td>
+                        <td>{{ item.meaning }}</td>
+                        <td>{{ item.example }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endblock %}
