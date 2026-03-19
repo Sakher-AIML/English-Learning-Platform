@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}{{ tense.name }} - Grammar{% endblock %}
+
+{% block content %}
+<section class="grammar-detail-shell">
+    <article class="grammar-detail-banner">
+        <p class="eyebrow">Tense Module</p>
+        <h1>{{ tense.name }}</h1>
+        <p>{{ tense.explanation }}</p>
+        <div class="hero-actions">
+            <a class="btn" href="{{ url_for('grammar') }}" data-page-transition="true">← Back to Grammar Hub</a>
+        </div>
+    </article>
+
+    <section class="grammar-detail-block">
+        <h3>Explanation</h3>
+        <p class="mb-0">{{ tense.explanation }}</p>
+    </section>
+
+    {% if tense.structure %}
+    <section class="grammar-detail-block grammar-structure-box">
+        <h3>Structure</h3>
+        <p class="mb-0"><code>{{ tense.structure }}</code></p>
+    </section>
+    {% endif %}
+
+    <section class="grammar-detail-block">
+        <h3>Examples</h3>
+        <div class="grammar-example-grid">
+            {% for line in tense.examples %}
+                <article class="grammar-example-item">{{ line }}</article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="grammar-detail-block">
+        <div class="section-head">
+            <h3>Practice</h3>
+            <span class="badge badge-primary">{{ tense.practice_questions|length }} questions</span>
+        </div>
+        <div id="genericPracticeEngine"></div>
+        <script id="genericPracticeData" type="application/json">{{ {'title': tense.name ~ ' Practice', 'id': tense.id, 'questions': tense.practice_questions}|tojson }}</script>
+    </section>
+</section>
+{% endblock %}
