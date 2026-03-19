@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard — EnglishPath{% endblock %}
+
+{% block content %}
+<!-- Welcome -->
+<section class="card welcome-card">
+    <div>
+        <p class="eyebrow">Your Learning Hub</p>
+        <h2>Welcome back, {{ username }} 👋</h2>
+        <p>Here's a snapshot of your progress. Keep the momentum going!</p>
+    </div>
+    <div class="welcome-avatar">{{ username[0]|upper }}</div>
+</section>
+
+<!-- Stats -->
+<section class="stats-grid">
+    <article class="card stat-card">
+        <span class="stat-icon">📊</span>
+        <p class="stat-label">Overall Completion</p>
+        <h3 class="stat-value text-primary">{{ overall_completion }}%</h3>
+        <div class="progress-line">
+            <span class="progress-fill" data-progress="{{ overall_completion }}"></span>
+        </div>
+    </article>
+    <article class="card stat-card">
+        <span class="stat-icon">📖</span>
+        <p class="stat-label">Lessons Done</p>
+        <h3 class="stat-value">{{ completed_lessons }}<span class="text-muted" style="font-size:1rem;font-weight:600"> / {{ total_lessons }}</span></h3>
+    </article>
+    <article class="card stat-card">
+        <span class="stat-icon">🔥</span>
+        <p class="stat-label">Daily Streak</p>
+        <h3 class="stat-value text-warning">{{ streak_days }} day{{ '' if streak_days == 1 else 's' }}</h3>
+    </article>
+    <article class="card stat-card">
+        <span class="stat-icon">⭐</span>
+        <p class="stat-label">Total XP</p>
+        <h3 class="stat-value text-accent">{{ total_xp }}</h3>
+    </article>
+</section>
+
+<section class="card">
+    <div class="section-head">
+        <h3>Continue Learning</h3>
+        <a id="dashboardContinueBtn" class="btn btn-primary" href="{{ url_for('lessons') }}">Continue Learning</a>
+    </div>
+    <p id="localProgressSummary" class="small mb-0">Beginner lesson completion (local): 0 completed</p>
+</section>
+
+<!-- Levels -->
+<section class="card" style="background:transparent;border:none;box-shadow:none;padding:0">
+    <div class="section-head" style="margin-bottom:16px">
+        <h2 style="margin:0">🎓 Your Levels</h2>
+    </div>
+    <div class="level-grid">
+        {% for level in level_cards %}
+            <article class="card level-card {{ 'locked' if not level.unlocked else '' }}">
+                <div class="level-header">
+                    <span class="level-icon">
+                        {% if level.slug == 'beginner' %}🌱{% elif level.slug == 'intermediate' %}💪{% else %}🚀{% endif %}
+                    </span>
+                    <div>
+                        <h3>{{ level.title }}</h3>
+                        <p class="level-meta">{{ level.lessons }} lessons</p>
+                    </div>
+                </div>
+                <div class="progress-line">
+                    <span class="progress-fill" data-progress="{{ level.completion }}"></span>
+                </div>
+                <p class="small mt-0">{{ level.completion }}% complete</p>
+
+                {% if level.unlocked %}
+                    <a class="btn btn-primary" href="{{ url_for('lessons') if level.slug == 'beginner' else url_for('lesson', level=level.slug) }}" style="width:100%;text-align:center">
+                        {% if level.completion == 0 %}Start{% elif level.completion == 100 %}Review{% else %}Continue{% endif %} {{ level.title }}
+                    </a>
+                {% else %}
+                    <button class="btn" disabled style="width:100%">🔒 Complete Previous Level</button>
+                {% endif %}
+            </article>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Recent Attempts -->
+<section class="card">
+    <div class="section-head">
+        <h3>🗓️ Recent Attempts</h3>
+        <a class="btn btn-ghost" href="{{ url_for('analytics') }}">📈 Full Analytics</a>
+    </div>
+    {% if recent_attempts %}
+        <div class="table-wrap">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Lesson</th>
+                        <th>Score</th>
+                        <th>Result</th>
+                        <th>When</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for attempt in recent_attempts %}
+                        <tr>
+                            <td>{{ attempt.level.title() }}</td>
+                            <td>Lesson {{ attempt.lesson_index + 1 }}</td>
+                            <td>{{ attempt.score }}/{{ attempt.total }} ({{ attempt.percent }}%)</td>
+                            <td>
+                                {% if attempt.passed %}
+                                    <span class="badge">✓ Passed</span>
+                                {% else %}
+                                    <span class="badge badge-danger">Retry</span>
+                                {% endif %}
+                            </td>
+                            <td>{{ attempt.attempted_at.replace('T', ' ') }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="small text-center">No attempts yet — start your first lesson to see your results here!</p>
+    {% endif %}
+</section>
+{% endblock %}
