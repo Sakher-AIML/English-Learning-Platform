@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}Practice - {{ lesson.title }}{% endblock %}
+
+{% block content %}
+<section class="card">
+    <p class="eyebrow">Practice Session</p>
+    <h2>{{ lesson.title }}</h2>
+    <p class="text-muted">Answer each question and check instantly to see if your answer is correct.</p>
+</section>
+
+<section class="card">
+    <div id="exerciseEngine" data-lesson-id="{{ lesson.id }}"></div>
+    <script id="lessonJson" type="application/json">{{ lesson|tojson }}</script>
+</section>
+{% endblock %}
