@@ -1,141 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lessons — EnglishPath</title>
-    <meta name="description" content="Master English with structured levels, quizzes, and smart progress tracking.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="bg-layer"></div>
-    <header class="topbar">
-        <a class="brand" href="index.html">
-            <span class="brand-icon">📘</span> EnglishPath
-        </a>
-        <nav>
-            <span id="nav-logged-out">
-                <a href="login.html">Login</a>
-                <a href="register.html" class="btn btn-primary" style="padding:7px 16px;font-size:0.88rem">Get Started</a>
-            </span>
-            <span id="nav-logged-in" style="display:none">
-                <a href="dashboard.html">📊 Dashboard</a>
-                <a href="analytics.html">📈 Analytics</a>
-                <a href="#" id="logoutBtn">Logout</a>
-            </span>
-            <button id="themeToggle" class="btn btn-icon btn-ghost" type="button" aria-label="Toggle theme" title="Switch theme">🌓</button>
-        </nav>
-    </header>
+{% extends "base.html" %}
 
-    <main class="container">
-        <div class="flash-wrap"></div>
+{% block title %}{{ level_title }} Lessons — EnglishPath{% endblock %}
 
-        <section class="card" id="lesson-header">
-            <p class="eyebrow" id="lesson-eyebrow">Level</p>
-            <h2 id="lesson-heading">Lessons</h2>
-            <p class="text-muted">Complete each lesson in order to unlock the next. Pass with 70% or higher to advance.</p>
-            <div class="toolbar">
-                <input id="lessonSearch" type="text" placeholder="🔍 Search lessons...">
+{% block content %}
+<section class="card">
+    <p class="eyebrow">{{ level_title }} Level</p>
+    <h2>{% if level == 'beginner' %}🌱{% elif level == 'intermediate' %}💪{% else %}🚀{% endif %} {{ level_title }} Lessons</h2>
+    <p class="text-muted">Complete each lesson in order to unlock the next. Pass with 70% or higher to advance.</p>
+    <div class="toolbar">
+        <input id="lessonSearch" type="text" placeholder="🔍 Search lessons...">
+    </div>
+</section>
+
+<section class="lesson-list">
+    {% for item in lessons %}
+        <article class="card lesson-item {{ 'locked' if not item.unlocked else '' }} {{ 'completed-lesson' if item.completed else '' }}" data-lesson-title="{{ item.title|lower }}" data-lesson-desc="{{ item.description|lower }}">
+            <div class="lesson-info">
+                <div class="lesson-number">
+                    {% if item.completed %}✓{% else %}{{ item.index + 1 }}{% endif %}
+                </div>
+                <div>
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                </div>
             </div>
-        </section>
 
-        <section class="lesson-list" id="lesson-list">
-            <p class="small text-center" style="padding:1rem">Loading lessons…</p>
-        </section>
+            <div class="lesson-actions">
+                {% if item.completed %}
+                    <span class="badge">✓ Done</span>
+                {% endif %}
 
-        <div style="margin-top:12px">
-            <a class="btn" href="dashboard.html">← Back to Dashboard</a>
-        </div>
-    </main>
-
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <span id="footer-logged-out">
-                    <a href="login.html">Login</a>
-                    <a href="register.html">Register</a>
-                </span>
-                <span id="footer-logged-in" style="display:none">
-                    <a href="dashboard.html">Dashboard</a>
-                    <a href="analytics.html">Analytics</a>
-                </span>
+                {% if item.unlocked %}
+                    <a class="btn btn-primary" href="{{ url_for('exercise', level=level, lesson_index=item.index) }}">
+                        {% if item.completed %}Review{% else %}Practice{% endif %}
+                    </a>
+                {% else %}
+                    <button class="btn" disabled>🔒 Locked</button>
+                {% endif %}
             </div>
-            <p>© 2026 EnglishPath — Built for learners, by learners.</p>
-        </div>
-    </footer>
+        </article>
+    {% endfor %}
+</section>
 
-    <script src="app.js"></script>
-    <script src="script.js"></script>
-    <script>
-        APP.updateNav();
-        if (!APP.requireLogin()) throw new Error("redirect");
-
-        (function () {
-            var params = APP.getParams();
-            var level = params.level;
-            var LEVEL_ORDER = APP.LEVEL_ORDER;
-            var ICONS = { beginner: "🌱", intermediate: "💪", advanced: "🚀" };
-
-            if (!level || LEVEL_ORDER.indexOf(level) === -1) {
-                window.location.href = "dashboard.html";
-                return;
-            }
-
-            var levelTitle = level.charAt(0).toUpperCase() + level.slice(1);
-            document.title = levelTitle + " Lessons — EnglishPath";
-            document.getElementById("lesson-eyebrow").textContent = levelTitle + " Level";
-            document.getElementById("lesson-heading").textContent = (ICONS[level] || "📘") + " " + levelTitle + " Lessons";
-
-            var username = APP.getCurrentUser();
-
-            // Check level is unlocked
-            Promise.all(LEVEL_ORDER.map(function (l) { return APP.loadLevelData(l); }))
-                .then(function (datasets) {
-                    var levelDataMap = {};
-                    LEVEL_ORDER.forEach(function (l, i) { levelDataMap[l] = datasets[i]; });
-
-                    var progress = APP.getProgress(username);
-                    var completionMap = {};
-                    LEVEL_ORDER.forEach(function (l) {
-                        completionMap[l] = APP.levelCompletionPercent(l, levelDataMap[l], progress);
-                    });
-
-                    if (!APP.isLevelUnlocked(level, completionMap)) {
-                        APP.showFlash("Complete the previous level first.", "error");
-                        setTimeout(function () { window.location.href = "dashboard.html"; }, 1500);
-                        return;
-                    }
-
-                    var levelData = levelDataMap[level];
-                    var list = document.getElementById("lesson-list");
-                    if (levelData.length === 0) {
-                        list.innerHTML = '<p class="small text-center">No lessons available.</p>';
-                        return;
-                    }
-
-                    list.innerHTML = levelData.map(function (item, idx) {
-                        var completed = String(idx) in (progress[level] || {});
-                        var unlocked = APP.canOpenLesson(level, idx, progress);
-                        var numBadge = completed ? "✓" : String(idx + 1);
-                        var badge = completed ? '<span class="badge">✓ Done</span>' : "";
-                        var btn = unlocked
-                            ? '<a class="btn btn-primary" href="exercise.html?level=' + level + '&index=' + idx + '">' + (completed ? "Review" : "Practice") + '</a>'
-                            : '<button class="btn" disabled>🔒 Locked</button>';
-                        return '<article class="card lesson-item' + (unlocked ? '' : ' locked') + (completed ? ' completed-lesson' : '') + '"'
-                            + ' data-lesson-title="' + (item.title || "").toLowerCase().replace(/"/g, "&quot;") + '"'
-                            + ' data-lesson-desc="' + (item.description || "").toLowerCase().replace(/"/g, "&quot;") + '">'
-                            + '<div class="lesson-info">'
-                            + '<div class="lesson-number">' + numBadge + '</div>'
-                            + '<div><h3>' + (item.title || "Lesson " + (idx + 1)) + '</h3><p>' + (item.description || "") + '</p></div>'
-                            + '</div>'
-                            + '<div class="lesson-actions">' + badge + btn + '</div>'
-                            + '</article>';
-                    }).join("");
-
-                    APP.animatePage();
-                });
-        }());
-    </script>
-</body>
-</html>
+<div style="margin-top:12px">
+    <a class="btn" href="{{ url_for('dashboard') }}">← Back to Dashboard</a>
+</div>
+{% endblock %}

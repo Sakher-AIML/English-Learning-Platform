@@ -1,80 +1,221 @@
-[
-  {
-    "title": "Basic Greetings",
-    "description": "Learn simple daily greetings.",
-    "questions": [
-      {
-        "question": "Choose the correct greeting for the morning.",
-        "options": ["Good night", "Good morning", "Goodbye", "See you"],
-        "answer": "Good morning"
-      },
-      {
-        "question": "What do you say when meeting someone for the first time?",
-        "options": ["Thank you", "Nice to meet you", "Excuse me", "Good luck"],
-        "answer": "Nice to meet you"
-      },
-      {
-        "question": "Which one means farewell?",
-        "options": ["How are you?", "Hello", "Goodbye", "Welcome"],
-        "answer": "Goodbye"
-      },
-      {
-        "question": "Fill in: ___ are you?",
-        "options": ["What", "Who", "How", "When"],
-        "answer": "How"
-      }
-    ]
-  },
-  {
-    "title": "Numbers and Colors",
-    "description": "Recognize basic numbers and common colors.",
-    "questions": [
-      {
-        "question": "Which is the number 7?",
-        "options": ["Seven", "Eleven", "Seventeen", "Seventy"],
-        "answer": "Seven"
-      },
-      {
-        "question": "What color is the sky on a clear day?",
-        "options": ["Blue", "Green", "Brown", "Pink"],
-        "answer": "Blue"
-      },
-      {
-        "question": "Choose the correct spelling.",
-        "options": ["Yelow", "Yallow", "Yellow", "Yelloe"],
-        "answer": "Yellow"
-      },
-      {
-        "question": "Which number comes after 9?",
-        "options": ["8", "10", "11", "12"],
-        "answer": "10"
-      }
-    ]
-  },
-  {
-    "title": "Simple Sentences",
-    "description": "Build very basic English sentences.",
-    "questions": [
-      {
-        "question": "Choose the correct sentence.",
-        "options": ["She are happy.", "She is happy.", "She am happy.", "She be happy."],
-        "answer": "She is happy."
-      },
-      {
-        "question": "Fill in: I ___ a student.",
-        "options": ["is", "are", "am", "be"],
-        "answer": "am"
-      },
-      {
-        "question": "Pick the correct order.",
-        "options": ["English I learn", "I learn English", "Learn I English", "I English learn"],
-        "answer": "I learn English"
-      },
-      {
-        "question": "Which one is a question?",
-        "options": ["You like tea.", "Do you like tea?", "You do like tea.", "Like you tea."],
-        "answer": "Do you like tea?"
-      }
-    ]
-  }
-]
+{
+  "level": "beginner",
+  "lessons": [
+    {
+      "id": "beg-001",
+      "title": "Daily Greetings and Introductions",
+      "description": "Learn how to greet people and introduce yourself naturally.",
+      "vocabulary": [
+        {
+          "word": "greet",
+          "meaning": "to say hello to someone",
+          "example": "I greet my teacher every morning."
+        },
+        {
+          "word": "introduce",
+          "meaning": "to tell someone your name",
+          "example": "Let me introduce myself."
+        },
+        {
+          "word": "polite",
+          "meaning": "showing good manners",
+          "example": "It is polite to say thank you."
+        },
+        {
+          "word": "neighbor",
+          "meaning": "a person who lives near you",
+          "example": "My neighbor is very friendly."
+        },
+        {
+          "word": "conversation",
+          "meaning": "talk between people",
+          "example": "We had a short conversation after class."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "question": "Which greeting is best for 8:00 AM?",
+          "options": [
+            "Good evening",
+            "Good night",
+            "Good morning",
+            "Goodbye"
+          ],
+          "correct_answer": "Good morning"
+        },
+        {
+          "type": "fill_blank",
+          "question": "Fill in the blank: Hello, my ___ is Sara.",
+          "correct_answer": "name"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct this sentence: I am fine, thank your.",
+          "correct_answer": "I am fine, thank you."
+        },
+        {
+          "type": "mcq",
+          "question": "What do you say when meeting someone for the first time?",
+          "options": [
+            "See you later",
+            "Nice to meet you",
+            "Good night",
+            "Excuse me"
+          ],
+          "correct_answer": "Nice to meet you"
+        },
+        {
+          "type": "fill_blank",
+          "question": "Fill in the blank: How ___ you?",
+          "correct_answer": "are"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct this sentence: She are my friend.",
+          "correct_answer": "She is my friend."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence is polite?",
+          "options": [
+            "Give me water.",
+            "Could I have some water, please?",
+            "You water now.",
+            "I want water."
+          ],
+          "correct_answer": "Could I have some water, please?"
+        },
+        {
+          "type": "fill_blank",
+          "question": "Fill in the blank: It was nice talking ___ you.",
+          "correct_answer": "to"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct this sentence: What your name is?",
+          "correct_answer": "What is your name?"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the best response to: 'How are you?'",
+          "options": [
+            "I am fine, thanks.",
+            "My name Ali.",
+            "Good night.",
+            "See you yesterday."
+          ],
+          "correct_answer": "I am fine, thanks."
+        }
+      ]
+    },
+    {
+      "id": "beg-002",
+      "title": "Daily Routines and Time Expressions",
+      "description": "Talk about your day using common verbs and time phrases.",
+      "vocabulary": [
+        {
+          "word": "routine",
+          "meaning": "things you do regularly",
+          "example": "My morning routine starts at 6:30."
+        },
+        {
+          "word": "usually",
+          "meaning": "most of the time",
+          "example": "I usually drink coffee at breakfast."
+        },
+        {
+          "word": "commute",
+          "meaning": "to travel to work or school",
+          "example": "He commutes by bus every day."
+        },
+        {
+          "word": "schedule",
+          "meaning": "a plan of activities",
+          "example": "I keep my study schedule on my phone."
+        },
+        {
+          "word": "exercise",
+          "meaning": "physical activity for health",
+          "example": "They exercise three times a week."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "question": "Which sentence is correct?",
+          "options": [
+            "I wakes up at 7.",
+            "I wake up at 7.",
+            "I waking up at 7.",
+            "I wake ups at 7."
+          ],
+          "correct_answer": "I wake up at 7."
+        },
+        {
+          "type": "fill_blank",
+          "question": "Fill in the blank: She ___ to school at 8:00.",
+          "correct_answer": "goes"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct this sentence: They goes home at 5 PM.",
+          "correct_answer": "They go home at 5 PM."
+        },
+        {
+          "type": "mcq",
+          "question": "Which word means 'most of the time'?",
+          "options": [
+            "never",
+            "usually",
+            "yesterday",
+            "soon"
+          ],
+          "correct_answer": "usually"
+        },
+        {
+          "type": "fill_blank",
+          "question": "Fill in the blank: I ___ my homework after dinner.",
+          "correct_answer": "do"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct this sentence: He have breakfast at 9.",
+          "correct_answer": "He has breakfast at 9."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the best time expression for a repeated action.",
+          "options": [
+            "last year",
+            "every day",
+            "tomorrow night",
+            "once yesterday"
+          ],
+          "correct_answer": "every day"
+        },
+        {
+          "type": "fill_blank",
+          "question": "Fill in the blank: We ___ English in the evening.",
+          "correct_answer": "study"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct this sentence: My father drive to work every day.",
+          "correct_answer": "My father drives to work every day."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence is in the present simple?",
+          "options": [
+            "I am reading now.",
+            "I read before bed.",
+            "I will read tonight.",
+            "I readed last night."
+          ],
+          "correct_answer": "I read before bed."
+        }
+      ]
+    }
+  ]
+}

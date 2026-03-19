@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Practice Bank - {{ level.title() }}{% endblock %}
+
+{% block content %}
+<section class="card">
+    <p class="eyebrow">Large-Scale Practice</p>
+    <h2>🧠 {{ level.title() }} Question Bank</h2>
+    <p class="text-muted">A full set of mixed practice questions (MCQ, fill in the blank, sentence correction).</p>
+    <div class="hero-actions">
+        {% for level_name in levels %}
+            <a class="btn {{ 'btn-primary' if level_name == level else '' }}" href="{{ url_for('practice_bank', level=level_name) }}">{{ level_name.title() }}</a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="card">
+    <div class="section-head">
+        <h3>Practice Session</h3>
+        <span class="badge badge-primary">{{ questions|length }} questions</span>
+    </div>
+    <p class="small mt-0">This page loads questions separately from lessons to keep lesson modules clean.</p>
+    <div id="genericPracticeEngine"></div>
+    <script id="genericPracticeData" type="application/json">{{ {'title': level.title() ~ ' Practice Bank', 'id': level ~ '-bank', 'questions': questions}|tojson }}</script>
+</section>
+{% endblock %}

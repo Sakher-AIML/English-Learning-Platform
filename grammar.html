@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block title %}Grammar - EnglishPath{% endblock %}
+
+{% block content %}
+<section class="grammar-shell">
+    <article class="grammar-banner">
+        <p class="eyebrow">Grammar Studio</p>
+        <h2>Master Grammar with Structured Modules</h2>
+        <p>Study tenses, articles, and prepositions through concise explanations, practical examples, and focused practice sets.</p>
+    </article>
+
+    <section class="grammar-filter-wrap">
+        <div id="grammarFilterTabs" class="grammar-filter-tabs" role="tablist" aria-label="Grammar categories">
+            <button class="grammar-filter-btn is-active" type="button" data-filter="all" role="tab" aria-selected="true">All</button>
+            <button class="grammar-filter-btn" type="button" data-filter="tenses" role="tab" aria-selected="false">Tenses</button>
+            <button class="grammar-filter-btn" type="button" data-filter="articles" role="tab" aria-selected="false">Articles</button>
+            <button class="grammar-filter-btn" type="button" data-filter="prepositions" role="tab" aria-selected="false">Prepositions</button>
+        </div>
+    </section>
+
+    <section class="grammar-section" data-grammar-group="tenses">
+        <header class="grammar-section-head">
+            <h3>Tenses</h3>
+            <p>Build accurate sentence timing with clear forms and usage.</p>
+        </header>
+        <div class="grammar-cards-grid">
+            {% for tense in tenses %}
+                <article class="grammar-topic-card" data-grammar-category="tenses">
+                    <span class="grammar-card-icon" aria-hidden="true">📘</span>
+                    <h4 class="grammar-card-title">{{ tense.name }}</h4>
+                    <p class="grammar-card-desc">{{ tense.explanation }}</p>
+                    <p class="grammar-card-meta">{{ tense.examples|length }} examples • {{ tense.practice_questions|length }} questions</p>
+                    <a class="btn btn-primary grammar-card-btn" href="{{ url_for('grammar_tense', tense_id=tense.id) }}" data-page-transition="true">Open Topic</a>
+                </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="grammar-section" data-grammar-group="articles">
+        <header class="grammar-section-head">
+            <h3>Articles</h3>
+            <p>Learn how to use <code>a</code>, <code>an</code>, and <code>the</code> naturally.</p>
+        </header>
+        <div class="grammar-cards-grid">
+            {% for topic in topics if topic.id == 'articles' %}
+                <article class="grammar-topic-card" data-grammar-category="articles">
+                    <span class="grammar-card-icon" aria-hidden="true">🧩</span>
+                    <h4 class="grammar-card-title">{{ topic.topic }}</h4>
+                    <p class="grammar-card-desc">{{ topic.explanation }}</p>
+                    <p class="grammar-card-meta">{{ topic.examples|length }} examples • {{ topic.questions|length }} questions</p>
+                    <a class="btn btn-primary grammar-card-btn" href="{{ url_for('grammar_topic', topic_id=topic.id) }}" data-page-transition="true">Open Topic</a>
+                </article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="grammar-section" data-grammar-group="prepositions">
+        <header class="grammar-section-head">
+            <h3>Prepositions</h3>
+            <p>Practice time, place, and direction prepositions in context.</p>
+        </header>
+        <div class="grammar-cards-grid">
+            {% for topic in topics if topic.id == 'prepositions' %}
+                <article class="grammar-topic-card" data-grammar-category="prepositions">
+                    <span class="grammar-card-icon" aria-hidden="true">🧭</span>
+                    <h4 class="grammar-card-title">{{ topic.topic }}</h4>
+                    <p class="grammar-card-desc">{{ topic.explanation }}</p>
+                    <p class="grammar-card-meta">{{ topic.examples|length }} examples • {{ topic.questions|length }} questions</p>
+                    <a class="btn btn-primary grammar-card-btn" href="{{ url_for('grammar_topic', topic_id=topic.id) }}" data-page-transition="true">Open Topic</a>
+                </article>
+            {% endfor %}
+        </div>
+    </section>
+</section>
+{% endblock %}

@@ -1,0 +1,1206 @@
+{
+  "level": "beginner",
+  "total": 150,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 1): She ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "is go",
+        "going"
+      ],
+      "correct_answer": "goes",
+      "id": "beginner-q-001"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 2): He ___ breakfast at home.",
+      "options": [
+        "eat",
+        "eats",
+        "is eat",
+        "eating"
+      ],
+      "correct_answer": "eats",
+      "id": "beginner-q-002"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 3): My friend ___ tea in the morning.",
+      "options": [
+        "drink",
+        "drinks",
+        "is drink",
+        "drinking"
+      ],
+      "correct_answer": "drinks",
+      "id": "beginner-q-003"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 4): My brother ___ football after class.",
+      "options": [
+        "play",
+        "plays",
+        "is play",
+        "playing"
+      ],
+      "correct_answer": "plays",
+      "id": "beginner-q-004"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 5): Our teacher ___ a book at night.",
+      "options": [
+        "read",
+        "reads",
+        "is read",
+        "reading"
+      ],
+      "correct_answer": "reads",
+      "id": "beginner-q-005"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 6): The driver ___ TV after dinner.",
+      "options": [
+        "watch",
+        "watches",
+        "is watch",
+        "watching"
+      ],
+      "correct_answer": "watches",
+      "id": "beginner-q-006"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 7): The student ___ the room on Friday.",
+      "options": [
+        "clean",
+        "cleans",
+        "is clean",
+        "cleaning"
+      ],
+      "correct_answer": "cleans",
+      "id": "beginner-q-007"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 8): My mother ___ the dishes after dinner.",
+      "options": [
+        "wash",
+        "washes",
+        "is wash",
+        "washing"
+      ],
+      "correct_answer": "washes",
+      "id": "beginner-q-008"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 9): My father ___ dinner for the family.",
+      "options": [
+        "cook",
+        "cooks",
+        "is cook",
+        "cooking"
+      ],
+      "correct_answer": "cooks",
+      "id": "beginner-q-009"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 10): My sister ___ notes in class.",
+      "options": [
+        "write",
+        "writes",
+        "is write",
+        "writeing"
+      ],
+      "correct_answer": "writes",
+      "id": "beginner-q-010"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 11): She ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "is go",
+        "going"
+      ],
+      "correct_answer": "goes",
+      "id": "beginner-q-011"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 12): He ___ breakfast at home.",
+      "options": [
+        "eat",
+        "eats",
+        "is eat",
+        "eating"
+      ],
+      "correct_answer": "eats",
+      "id": "beginner-q-012"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 13): My friend ___ tea in the morning.",
+      "options": [
+        "drink",
+        "drinks",
+        "is drink",
+        "drinking"
+      ],
+      "correct_answer": "drinks",
+      "id": "beginner-q-013"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 14): My brother ___ football after class.",
+      "options": [
+        "play",
+        "plays",
+        "is play",
+        "playing"
+      ],
+      "correct_answer": "plays",
+      "id": "beginner-q-014"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 15): Our teacher ___ a book at night.",
+      "options": [
+        "read",
+        "reads",
+        "is read",
+        "reading"
+      ],
+      "correct_answer": "reads",
+      "id": "beginner-q-015"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 16): The driver ___ TV after dinner.",
+      "options": [
+        "watch",
+        "watches",
+        "is watch",
+        "watching"
+      ],
+      "correct_answer": "watches",
+      "id": "beginner-q-016"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 17): The student ___ the room on Friday.",
+      "options": [
+        "clean",
+        "cleans",
+        "is clean",
+        "cleaning"
+      ],
+      "correct_answer": "cleans",
+      "id": "beginner-q-017"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 18): My mother ___ the dishes after dinner.",
+      "options": [
+        "wash",
+        "washes",
+        "is wash",
+        "washing"
+      ],
+      "correct_answer": "washes",
+      "id": "beginner-q-018"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 19): My father ___ dinner for the family.",
+      "options": [
+        "cook",
+        "cooks",
+        "is cook",
+        "cooking"
+      ],
+      "correct_answer": "cooks",
+      "id": "beginner-q-019"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 20): My sister ___ notes in class.",
+      "options": [
+        "write",
+        "writes",
+        "is write",
+        "writeing"
+      ],
+      "correct_answer": "writes",
+      "id": "beginner-q-020"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 21): She ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "is go",
+        "going"
+      ],
+      "correct_answer": "goes",
+      "id": "beginner-q-021"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 22): He ___ breakfast at home.",
+      "options": [
+        "eat",
+        "eats",
+        "is eat",
+        "eating"
+      ],
+      "correct_answer": "eats",
+      "id": "beginner-q-022"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 23): My friend ___ tea in the morning.",
+      "options": [
+        "drink",
+        "drinks",
+        "is drink",
+        "drinking"
+      ],
+      "correct_answer": "drinks",
+      "id": "beginner-q-023"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 24): My brother ___ football after class.",
+      "options": [
+        "play",
+        "plays",
+        "is play",
+        "playing"
+      ],
+      "correct_answer": "plays",
+      "id": "beginner-q-024"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 25): Our teacher ___ a book at night.",
+      "options": [
+        "read",
+        "reads",
+        "is read",
+        "reading"
+      ],
+      "correct_answer": "reads",
+      "id": "beginner-q-025"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 26): The driver ___ TV after dinner.",
+      "options": [
+        "watch",
+        "watches",
+        "is watch",
+        "watching"
+      ],
+      "correct_answer": "watches",
+      "id": "beginner-q-026"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 27): The student ___ the room on Friday.",
+      "options": [
+        "clean",
+        "cleans",
+        "is clean",
+        "cleaning"
+      ],
+      "correct_answer": "cleans",
+      "id": "beginner-q-027"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 28): My mother ___ the dishes after dinner.",
+      "options": [
+        "wash",
+        "washes",
+        "is wash",
+        "washing"
+      ],
+      "correct_answer": "washes",
+      "id": "beginner-q-028"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 29): My father ___ dinner for the family.",
+      "options": [
+        "cook",
+        "cooks",
+        "is cook",
+        "cooking"
+      ],
+      "correct_answer": "cooks",
+      "id": "beginner-q-029"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 30): My sister ___ notes in class.",
+      "options": [
+        "write",
+        "writes",
+        "is write",
+        "writeing"
+      ],
+      "correct_answer": "writes",
+      "id": "beginner-q-030"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 31): She ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "is go",
+        "going"
+      ],
+      "correct_answer": "goes",
+      "id": "beginner-q-031"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 32): He ___ breakfast at home.",
+      "options": [
+        "eat",
+        "eats",
+        "is eat",
+        "eating"
+      ],
+      "correct_answer": "eats",
+      "id": "beginner-q-032"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 33): My friend ___ tea in the morning.",
+      "options": [
+        "drink",
+        "drinks",
+        "is drink",
+        "drinking"
+      ],
+      "correct_answer": "drinks",
+      "id": "beginner-q-033"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 34): My brother ___ football after class.",
+      "options": [
+        "play",
+        "plays",
+        "is play",
+        "playing"
+      ],
+      "correct_answer": "plays",
+      "id": "beginner-q-034"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 35): Our teacher ___ a book at night.",
+      "options": [
+        "read",
+        "reads",
+        "is read",
+        "reading"
+      ],
+      "correct_answer": "reads",
+      "id": "beginner-q-035"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 36): The driver ___ TV after dinner.",
+      "options": [
+        "watch",
+        "watches",
+        "is watch",
+        "watching"
+      ],
+      "correct_answer": "watches",
+      "id": "beginner-q-036"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 37): The student ___ the room on Friday.",
+      "options": [
+        "clean",
+        "cleans",
+        "is clean",
+        "cleaning"
+      ],
+      "correct_answer": "cleans",
+      "id": "beginner-q-037"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 38): My mother ___ the dishes after dinner.",
+      "options": [
+        "wash",
+        "washes",
+        "is wash",
+        "washing"
+      ],
+      "correct_answer": "washes",
+      "id": "beginner-q-038"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 39): My father ___ dinner for the family.",
+      "options": [
+        "cook",
+        "cooks",
+        "is cook",
+        "cooking"
+      ],
+      "correct_answer": "cooks",
+      "id": "beginner-q-039"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 40): My sister ___ notes in class.",
+      "options": [
+        "write",
+        "writes",
+        "is write",
+        "writeing"
+      ],
+      "correct_answer": "writes",
+      "id": "beginner-q-040"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 41): She ___ to school every day.",
+      "options": [
+        "go",
+        "goes",
+        "is go",
+        "going"
+      ],
+      "correct_answer": "goes",
+      "id": "beginner-q-041"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 42): He ___ breakfast at home.",
+      "options": [
+        "eat",
+        "eats",
+        "is eat",
+        "eating"
+      ],
+      "correct_answer": "eats",
+      "id": "beginner-q-042"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 43): My friend ___ tea in the morning.",
+      "options": [
+        "drink",
+        "drinks",
+        "is drink",
+        "drinking"
+      ],
+      "correct_answer": "drinks",
+      "id": "beginner-q-043"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 44): My brother ___ football after class.",
+      "options": [
+        "play",
+        "plays",
+        "is play",
+        "playing"
+      ],
+      "correct_answer": "plays",
+      "id": "beginner-q-044"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 45): Our teacher ___ a book at night.",
+      "options": [
+        "read",
+        "reads",
+        "is read",
+        "reading"
+      ],
+      "correct_answer": "reads",
+      "id": "beginner-q-045"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 46): The driver ___ TV after dinner.",
+      "options": [
+        "watch",
+        "watches",
+        "is watch",
+        "watching"
+      ],
+      "correct_answer": "watches",
+      "id": "beginner-q-046"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 47): The student ___ the room on Friday.",
+      "options": [
+        "clean",
+        "cleans",
+        "is clean",
+        "cleaning"
+      ],
+      "correct_answer": "cleans",
+      "id": "beginner-q-047"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 48): My mother ___ the dishes after dinner.",
+      "options": [
+        "wash",
+        "washes",
+        "is wash",
+        "washing"
+      ],
+      "correct_answer": "washes",
+      "id": "beginner-q-048"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 49): My father ___ dinner for the family.",
+      "options": [
+        "cook",
+        "cooks",
+        "is cook",
+        "cooking"
+      ],
+      "correct_answer": "cooks",
+      "id": "beginner-q-049"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence (Beginner MCQ 50): My sister ___ notes in class.",
+      "options": [
+        "write",
+        "writes",
+        "is write",
+        "writeing"
+      ],
+      "correct_answer": "writes",
+      "id": "beginner-q-050"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 1): I ___ breakfast at seven every day.",
+      "correct_answer": "eat",
+      "id": "beginner-q-051"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 2): We ___ English after dinner.",
+      "correct_answer": "study",
+      "id": "beginner-q-052"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 3): They ___ to the market on weekends.",
+      "correct_answer": "go",
+      "id": "beginner-q-053"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 4): You ___ the bus to work.",
+      "correct_answer": "take",
+      "id": "beginner-q-054"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 5): She ___ her homework before bed.",
+      "correct_answer": "finishes",
+      "id": "beginner-q-055"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 6): He ___ water after exercise.",
+      "correct_answer": "drinks",
+      "id": "beginner-q-056"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 7): The keys are ___ the table.",
+      "correct_answer": "on",
+      "id": "beginner-q-057"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 8): My class starts ___ Monday.",
+      "correct_answer": "on",
+      "id": "beginner-q-058"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 9): We arrived ___ the station at 6:00.",
+      "correct_answer": "at",
+      "id": "beginner-q-059"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 10): I need ___ umbrella today.",
+      "correct_answer": "an",
+      "id": "beginner-q-060"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 11): I ___ breakfast at seven every day.",
+      "correct_answer": "eat",
+      "id": "beginner-q-061"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 12): We ___ English after dinner.",
+      "correct_answer": "study",
+      "id": "beginner-q-062"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 13): They ___ to the market on weekends.",
+      "correct_answer": "go",
+      "id": "beginner-q-063"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 14): You ___ the bus to work.",
+      "correct_answer": "take",
+      "id": "beginner-q-064"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 15): She ___ her homework before bed.",
+      "correct_answer": "finishes",
+      "id": "beginner-q-065"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 16): He ___ water after exercise.",
+      "correct_answer": "drinks",
+      "id": "beginner-q-066"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 17): The keys are ___ the table.",
+      "correct_answer": "on",
+      "id": "beginner-q-067"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 18): My class starts ___ Monday.",
+      "correct_answer": "on",
+      "id": "beginner-q-068"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 19): We arrived ___ the station at 6:00.",
+      "correct_answer": "at",
+      "id": "beginner-q-069"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 20): I need ___ umbrella today.",
+      "correct_answer": "an",
+      "id": "beginner-q-070"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 21): I ___ breakfast at seven every day.",
+      "correct_answer": "eat",
+      "id": "beginner-q-071"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 22): We ___ English after dinner.",
+      "correct_answer": "study",
+      "id": "beginner-q-072"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 23): They ___ to the market on weekends.",
+      "correct_answer": "go",
+      "id": "beginner-q-073"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 24): You ___ the bus to work.",
+      "correct_answer": "take",
+      "id": "beginner-q-074"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 25): She ___ her homework before bed.",
+      "correct_answer": "finishes",
+      "id": "beginner-q-075"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 26): He ___ water after exercise.",
+      "correct_answer": "drinks",
+      "id": "beginner-q-076"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 27): The keys are ___ the table.",
+      "correct_answer": "on",
+      "id": "beginner-q-077"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 28): My class starts ___ Monday.",
+      "correct_answer": "on",
+      "id": "beginner-q-078"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 29): We arrived ___ the station at 6:00.",
+      "correct_answer": "at",
+      "id": "beginner-q-079"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 30): I need ___ umbrella today.",
+      "correct_answer": "an",
+      "id": "beginner-q-080"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 31): I ___ breakfast at seven every day.",
+      "correct_answer": "eat",
+      "id": "beginner-q-081"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 32): We ___ English after dinner.",
+      "correct_answer": "study",
+      "id": "beginner-q-082"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 33): They ___ to the market on weekends.",
+      "correct_answer": "go",
+      "id": "beginner-q-083"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 34): You ___ the bus to work.",
+      "correct_answer": "take",
+      "id": "beginner-q-084"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 35): She ___ her homework before bed.",
+      "correct_answer": "finishes",
+      "id": "beginner-q-085"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 36): He ___ water after exercise.",
+      "correct_answer": "drinks",
+      "id": "beginner-q-086"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 37): The keys are ___ the table.",
+      "correct_answer": "on",
+      "id": "beginner-q-087"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 38): My class starts ___ Monday.",
+      "correct_answer": "on",
+      "id": "beginner-q-088"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 39): We arrived ___ the station at 6:00.",
+      "correct_answer": "at",
+      "id": "beginner-q-089"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 40): I need ___ umbrella today.",
+      "correct_answer": "an",
+      "id": "beginner-q-090"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 41): I ___ breakfast at seven every day.",
+      "correct_answer": "eat",
+      "id": "beginner-q-091"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 42): We ___ English after dinner.",
+      "correct_answer": "study",
+      "id": "beginner-q-092"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 43): They ___ to the market on weekends.",
+      "correct_answer": "go",
+      "id": "beginner-q-093"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 44): You ___ the bus to work.",
+      "correct_answer": "take",
+      "id": "beginner-q-094"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 45): She ___ her homework before bed.",
+      "correct_answer": "finishes",
+      "id": "beginner-q-095"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 46): He ___ water after exercise.",
+      "correct_answer": "drinks",
+      "id": "beginner-q-096"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 47): The keys are ___ the table.",
+      "correct_answer": "on",
+      "id": "beginner-q-097"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 48): My class starts ___ Monday.",
+      "correct_answer": "on",
+      "id": "beginner-q-098"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 49): We arrived ___ the station at 6:00.",
+      "correct_answer": "at",
+      "id": "beginner-q-099"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Beginner Fill 50): I need ___ umbrella today.",
+      "correct_answer": "an",
+      "id": "beginner-q-100"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 1): She go to school every day.",
+      "correct_answer": "She goes to school every day.",
+      "id": "beginner-q-101"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 2): He don't like coffee.",
+      "correct_answer": "He doesn't like coffee.",
+      "id": "beginner-q-102"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 3): They is in the classroom now.",
+      "correct_answer": "They are in the classroom now.",
+      "id": "beginner-q-103"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 4): I have a orange in my bag.",
+      "correct_answer": "I have an orange in my bag.",
+      "id": "beginner-q-104"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 5): We was late yesterday.",
+      "correct_answer": "We were late yesterday.",
+      "id": "beginner-q-105"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 6): My sister can sings well.",
+      "correct_answer": "My sister can sing well.",
+      "id": "beginner-q-106"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 7): There is many students here.",
+      "correct_answer": "There are many students here.",
+      "id": "beginner-q-107"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 8): She didnt finish her homework.",
+      "correct_answer": "She didn't finish her homework.",
+      "id": "beginner-q-108"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 9): He have two brothers.",
+      "correct_answer": "He has two brothers.",
+      "id": "beginner-q-109"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 10): I am agree with you.",
+      "correct_answer": "I agree with you.",
+      "id": "beginner-q-110"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 11): She go to school every day.",
+      "correct_answer": "She goes to school every day.",
+      "id": "beginner-q-111"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 12): He don't like coffee.",
+      "correct_answer": "He doesn't like coffee.",
+      "id": "beginner-q-112"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 13): They is in the classroom now.",
+      "correct_answer": "They are in the classroom now.",
+      "id": "beginner-q-113"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 14): I have a orange in my bag.",
+      "correct_answer": "I have an orange in my bag.",
+      "id": "beginner-q-114"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 15): We was late yesterday.",
+      "correct_answer": "We were late yesterday.",
+      "id": "beginner-q-115"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 16): My sister can sings well.",
+      "correct_answer": "My sister can sing well.",
+      "id": "beginner-q-116"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 17): There is many students here.",
+      "correct_answer": "There are many students here.",
+      "id": "beginner-q-117"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 18): She didnt finish her homework.",
+      "correct_answer": "She didn't finish her homework.",
+      "id": "beginner-q-118"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 19): He have two brothers.",
+      "correct_answer": "He has two brothers.",
+      "id": "beginner-q-119"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 20): I am agree with you.",
+      "correct_answer": "I agree with you.",
+      "id": "beginner-q-120"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 21): She go to school every day.",
+      "correct_answer": "She goes to school every day.",
+      "id": "beginner-q-121"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 22): He don't like coffee.",
+      "correct_answer": "He doesn't like coffee.",
+      "id": "beginner-q-122"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 23): They is in the classroom now.",
+      "correct_answer": "They are in the classroom now.",
+      "id": "beginner-q-123"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 24): I have a orange in my bag.",
+      "correct_answer": "I have an orange in my bag.",
+      "id": "beginner-q-124"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 25): We was late yesterday.",
+      "correct_answer": "We were late yesterday.",
+      "id": "beginner-q-125"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 26): My sister can sings well.",
+      "correct_answer": "My sister can sing well.",
+      "id": "beginner-q-126"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 27): There is many students here.",
+      "correct_answer": "There are many students here.",
+      "id": "beginner-q-127"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 28): She didnt finish her homework.",
+      "correct_answer": "She didn't finish her homework.",
+      "id": "beginner-q-128"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 29): He have two brothers.",
+      "correct_answer": "He has two brothers.",
+      "id": "beginner-q-129"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 30): I am agree with you.",
+      "correct_answer": "I agree with you.",
+      "id": "beginner-q-130"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 31): She go to school every day.",
+      "correct_answer": "She goes to school every day.",
+      "id": "beginner-q-131"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 32): He don't like coffee.",
+      "correct_answer": "He doesn't like coffee.",
+      "id": "beginner-q-132"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 33): They is in the classroom now.",
+      "correct_answer": "They are in the classroom now.",
+      "id": "beginner-q-133"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 34): I have a orange in my bag.",
+      "correct_answer": "I have an orange in my bag.",
+      "id": "beginner-q-134"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 35): We was late yesterday.",
+      "correct_answer": "We were late yesterday.",
+      "id": "beginner-q-135"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 36): My sister can sings well.",
+      "correct_answer": "My sister can sing well.",
+      "id": "beginner-q-136"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 37): There is many students here.",
+      "correct_answer": "There are many students here.",
+      "id": "beginner-q-137"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 38): She didnt finish her homework.",
+      "correct_answer": "She didn't finish her homework.",
+      "id": "beginner-q-138"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 39): He have two brothers.",
+      "correct_answer": "He has two brothers.",
+      "id": "beginner-q-139"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 40): I am agree with you.",
+      "correct_answer": "I agree with you.",
+      "id": "beginner-q-140"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 41): She go to school every day.",
+      "correct_answer": "She goes to school every day.",
+      "id": "beginner-q-141"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 42): He don't like coffee.",
+      "correct_answer": "He doesn't like coffee.",
+      "id": "beginner-q-142"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 43): They is in the classroom now.",
+      "correct_answer": "They are in the classroom now.",
+      "id": "beginner-q-143"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 44): I have a orange in my bag.",
+      "correct_answer": "I have an orange in my bag.",
+      "id": "beginner-q-144"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 45): We was late yesterday.",
+      "correct_answer": "We were late yesterday.",
+      "id": "beginner-q-145"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 46): My sister can sings well.",
+      "correct_answer": "My sister can sing well.",
+      "id": "beginner-q-146"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 47): There is many students here.",
+      "correct_answer": "There are many students here.",
+      "id": "beginner-q-147"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 48): She didnt finish her homework.",
+      "correct_answer": "She didn't finish her homework.",
+      "id": "beginner-q-148"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 49): He have two brothers.",
+      "correct_answer": "He has two brothers.",
+      "id": "beginner-q-149"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Beginner Correction 50): I am agree with you.",
+      "correct_answer": "I agree with you.",
+      "id": "beginner-q-150"
+    }
+  ]
+}

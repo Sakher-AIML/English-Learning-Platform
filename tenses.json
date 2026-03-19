@@ -1,0 +1,1004 @@
+{
+  "tenses": [
+    {
+      "id": "present_simple",
+      "name": "Present Simple",
+      "explanation": "Use present simple for routines, habits, facts, and things that are generally true.",
+      "structure": "Subject + base verb (add -s/-es for he/she/it)",
+      "examples": [
+        "I drink water before breakfast every day.",
+        "She teaches mathematics at a public school.",
+        "They play basketball after class on Tuesdays.",
+        "My father drives to work at 8:00 a.m.",
+        "The train leaves the station at 6:30.",
+        "We usually eat dinner together.",
+        "He does his homework before dinner.",
+        "The earth moves around the sun.",
+        "Our team meets every Monday morning.",
+        "It rains a lot in this region in winter."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She go to the gym every morning.",
+            "She goes to the gym every morning.",
+            "She is go to the gym every morning.",
+            "She going to the gym every morning."
+          ],
+          "correct_answer": "She goes to the gym every morning."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence expresses a general fact?",
+          "options": [
+            "Water freezes at 0C.",
+            "Water is freezing right now.",
+            "Water froze last night.",
+            "Water will freeze tomorrow."
+          ],
+          "correct_answer": "Water freezes at 0C."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative form.",
+          "options": [
+            "He don't like spicy food.",
+            "He doesn't likes spicy food.",
+            "He doesn't like spicy food.",
+            "He not like spicy food."
+          ],
+          "correct_answer": "He doesn't like spicy food."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question form.",
+          "options": [
+            "Do she work here?",
+            "Does she work here?",
+            "Is she work here?",
+            "Did she works here?"
+          ],
+          "correct_answer": "Does she work here?"
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence is correct for a routine?",
+          "options": [
+            "I am waking up at 6 every day.",
+            "I wake up at 6 every day.",
+            "I woke up at 6 every day.",
+            "I have wake up at 6 every day."
+          ],
+          "correct_answer": "I wake up at 6 every day."
+        },
+        {
+          "type": "fill_blank",
+          "question": "My sister ___ (study) English at night.",
+          "correct_answer": "studies"
+        },
+        {
+          "type": "fill_blank",
+          "question": "They ___ (not / watch) TV in the morning.",
+          "correct_answer": "do not watch"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ he ___ (drive) to work every day?",
+          "correct_answer": "Does he drive"
+        },
+        {
+          "type": "fill_blank",
+          "question": "The shop ___ (open) at 9:00 a.m.",
+          "correct_answer": "opens"
+        },
+        {
+          "type": "fill_blank",
+          "question": "I ___ (have) coffee after lunch.",
+          "correct_answer": "have"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: He walk to school every day.",
+          "correct_answer": "He walks to school every day."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They doesn't speak French.",
+          "correct_answer": "They do not speak French."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Does she studies at this university?",
+          "correct_answer": "Does she study at this university?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: The baby cry at night.",
+          "correct_answer": "The baby cries at night."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: We goes to the market on Fridays.",
+          "correct_answer": "We go to the market on Fridays."
+        }
+      ]
+    },
+    {
+      "id": "present_continuous",
+      "name": "Present Continuous",
+      "explanation": "Use present continuous for actions happening now, around now, or temporary situations.",
+      "structure": "Subject + am/is/are + verb-ing",
+      "examples": [
+        "I am reading an article right now.",
+        "She is preparing lunch in the kitchen.",
+        "They are studying for their final exam.",
+        "We are working on a new project this month.",
+        "He is talking to his manager on the phone.",
+        "The children are drawing pictures in class.",
+        "My friend is staying with us this week.",
+        "I am learning how to cook Thai food.",
+        "The bus is coming now.",
+        "You are improving your pronunciation quickly."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She cooking dinner now.",
+            "She is cooking dinner now.",
+            "She is cook dinner now.",
+            "She cooks dinner now."
+          ],
+          "correct_answer": "She is cooking dinner now."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence describes an action happening at this moment?",
+          "options": [
+            "He plays football every weekend.",
+            "He is playing football right now.",
+            "He played football yesterday.",
+            "He has played football before."
+          ],
+          "correct_answer": "He is playing football right now."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "We not studying now.",
+            "We are not studying now.",
+            "We do not studying now.",
+            "We are not study now."
+          ],
+          "correct_answer": "We are not studying now."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question.",
+          "options": [
+            "Are they waiting for us?",
+            "Do they waiting for us?",
+            "Are they wait for us?",
+            "Did they waiting for us?"
+          ],
+          "correct_answer": "Are they waiting for us?"
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence is correct for a temporary situation?",
+          "options": [
+            "I live with my cousin this month.",
+            "I am living with my cousin this month.",
+            "I lived with my cousin this month.",
+            "I have living with my cousin this month."
+          ],
+          "correct_answer": "I am living with my cousin this month."
+        },
+        {
+          "type": "fill_blank",
+          "question": "They ___ (watch) a movie at the moment.",
+          "correct_answer": "are watching"
+        },
+        {
+          "type": "fill_blank",
+          "question": "I ___ (not / use) my laptop right now.",
+          "correct_answer": "am not using"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ she ___ (study) in her room now?",
+          "correct_answer": "Is she studying"
+        },
+        {
+          "type": "fill_blank",
+          "question": "The team ___ (prepare) for tomorrow's meeting.",
+          "correct_answer": "is preparing"
+        },
+        {
+          "type": "fill_blank",
+          "question": "We ___ (improve) our writing skills this semester.",
+          "correct_answer": "are improving"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: He are talking to his teacher.",
+          "correct_answer": "He is talking to his teacher."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: I am read a new book now.",
+          "correct_answer": "I am reading a new book now."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Are you writing your report now?",
+          "correct_answer": "Are you writing your report now?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They is not listening carefully.",
+          "correct_answer": "They are not listening carefully."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: She not working this week.",
+          "correct_answer": "She is not working this week."
+        }
+      ]
+    },
+    {
+      "id": "past_simple",
+      "name": "Past Simple",
+      "explanation": "Use past simple for completed actions at a specific time in the past.",
+      "structure": "Subject + past verb (verb + ed or irregular form)",
+      "examples": [
+        "I visited my grandparents last weekend.",
+        "She watched a documentary last night.",
+        "They finished the assignment yesterday.",
+        "We went to the beach on Sunday.",
+        "He wrote an email before lunch.",
+        "The class started at 9:00 a.m.",
+        "My brother bought a new phone last month.",
+        "I met your cousin at the cafe yesterday.",
+        "The company launched the app in 2024.",
+        "She did not attend the meeting yesterday."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I goed to school yesterday.",
+            "I went to school yesterday.",
+            "I go to school yesterday.",
+            "I have gone to school yesterday."
+          ],
+          "correct_answer": "I went to school yesterday."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence is in past simple?",
+          "options": [
+            "She is cooking now.",
+            "She cooks every day.",
+            "She cooked dinner last night.",
+            "She has cooked dinner."
+          ],
+          "correct_answer": "She cooked dinner last night."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "He did not called me.",
+            "He did not call me.",
+            "He not called me.",
+            "He does not call me."
+          ],
+          "correct_answer": "He did not call me."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question form.",
+          "options": [
+            "Did you finished your homework?",
+            "Did you finish your homework?",
+            "Do you finished your homework?",
+            "Were you finish your homework?"
+          ],
+          "correct_answer": "Did you finish your homework?"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct past form of 'buy'.",
+          "options": [
+            "buyed",
+            "bought",
+            "buy",
+            "buying"
+          ],
+          "correct_answer": "bought"
+        },
+        {
+          "type": "fill_blank",
+          "question": "We ___ (visit) the museum last Friday.",
+          "correct_answer": "visited"
+        },
+        {
+          "type": "fill_blank",
+          "question": "She ___ (not / enjoy) the movie yesterday.",
+          "correct_answer": "did not enjoy"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ they ___ (arrive) on time?",
+          "correct_answer": "Did they arrive"
+        },
+        {
+          "type": "fill_blank",
+          "question": "I ___ (see) him at the station this morning.",
+          "correct_answer": "saw"
+        },
+        {
+          "type": "fill_blank",
+          "question": "The teacher ___ (give) us extra homework.",
+          "correct_answer": "gave"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They was happy after the match.",
+          "correct_answer": "They were happy after the match."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: He did not went to work yesterday.",
+          "correct_answer": "He did not go to work yesterday."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: We eated dinner at 8:00.",
+          "correct_answer": "We ate dinner at 8:00."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Did she called you last night?",
+          "correct_answer": "Did she call you last night?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: I didn't knew the answer.",
+          "correct_answer": "I did not know the answer."
+        }
+      ]
+    },
+    {
+      "id": "past_continuous",
+      "name": "Past Continuous",
+      "explanation": "Use past continuous for an action that was in progress at a certain time in the past.",
+      "structure": "Subject + was/were + verb-ing",
+      "examples": [
+        "I was reading when you called me.",
+        "She was cooking dinner at 7:00 p.m.",
+        "They were studying all evening.",
+        "We were waiting for the bus in the rain.",
+        "He was driving home when the storm began.",
+        "The kids were playing in the garden.",
+        "My brother was sleeping at midnight.",
+        "I was writing my report at that time.",
+        "The team was practicing while it was snowing.",
+        "You were talking to the manager when I arrived."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I were watching TV at 9.",
+            "I was watching TV at 9.",
+            "I was watch TV at 9.",
+            "I watching TV at 9."
+          ],
+          "correct_answer": "I was watching TV at 9."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence uses past continuous correctly?",
+          "options": [
+            "They were play football.",
+            "They were playing football.",
+            "They played football when I call.",
+            "They have been playing football then."
+          ],
+          "correct_answer": "They were playing football."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "She wasn't studying last night.",
+            "She didn't studying last night.",
+            "She wasn't study last night.",
+            "She not was studying last night."
+          ],
+          "correct_answer": "She wasn't studying last night."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question form.",
+          "options": [
+            "Were you sleeping at 11:00?",
+            "Did you sleeping at 11:00?",
+            "Was you sleeping at 11:00?",
+            "Are you sleeping at 11:00?"
+          ],
+          "correct_answer": "Were you sleeping at 11:00?"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the best sentence with an interrupted action.",
+          "options": [
+            "I cooked when he arrived.",
+            "I was cooking when he arrived.",
+            "I have cooked when he arrived.",
+            "I cook when he arrived."
+          ],
+          "correct_answer": "I was cooking when he arrived."
+        },
+        {
+          "type": "fill_blank",
+          "question": "They ___ (wait) outside when it started raining.",
+          "correct_answer": "were waiting"
+        },
+        {
+          "type": "fill_blank",
+          "question": "He ___ (not / work) at 10 p.m. yesterday.",
+          "correct_answer": "was not working"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ she ___ (listen) to music at that moment?",
+          "correct_answer": "Was she listening"
+        },
+        {
+          "type": "fill_blank",
+          "question": "We ___ (drive) to the airport at dawn.",
+          "correct_answer": "were driving"
+        },
+        {
+          "type": "fill_blank",
+          "question": "I ___ (review) my notes when the lights went out.",
+          "correct_answer": "was reviewing"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: She were reading a novel at 8:00.",
+          "correct_answer": "She was reading a novel at 8:00."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They was talking too loudly.",
+          "correct_answer": "They were talking too loudly."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Were he watching the game?",
+          "correct_answer": "Was he watching the game?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: I not was sleeping when you texted me.",
+          "correct_answer": "I was not sleeping when you texted me."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: We were wait for the teacher.",
+          "correct_answer": "We were waiting for the teacher."
+        }
+      ]
+    },
+    {
+      "id": "present_perfect",
+      "name": "Present Perfect",
+      "explanation": "Use present perfect for experiences, recent actions, and actions that connect past to now.",
+      "structure": "Subject + have/has + past participle",
+      "examples": [
+        "I have visited Istanbul twice.",
+        "She has completed her assignment.",
+        "They have lived here for five years.",
+        "We have just finished lunch.",
+        "He has never tried sushi.",
+        "My parents have traveled to Spain.",
+        "I have known her since high school.",
+        "The company has launched a new service.",
+        "You have improved your grammar a lot.",
+        "It has rained three times this week."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She have finished her work.",
+            "She has finished her work.",
+            "She has finish her work.",
+            "She finished her work already now."
+          ],
+          "correct_answer": "She has finished her work."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence shows life experience?",
+          "options": [
+            "I went to Paris in 2019.",
+            "I have been to Paris.",
+            "I was going to Paris.",
+            "I go to Paris every year."
+          ],
+          "correct_answer": "I have been to Paris."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "We haven't seen that film yet.",
+            "We didn't seen that film yet.",
+            "We not have seen that film yet.",
+            "We hasn't seen that film yet."
+          ],
+          "correct_answer": "We haven't seen that film yet."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question form.",
+          "options": [
+            "Have you ever eaten Korean food?",
+            "Did you ever eaten Korean food?",
+            "Have you ever eat Korean food?",
+            "Do you ever eaten Korean food?"
+          ],
+          "correct_answer": "Have you ever eaten Korean food?"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the sentence with 'since' used correctly.",
+          "options": [
+            "She has worked here since three years.",
+            "She has worked here since 2021.",
+            "She worked here since 2021.",
+            "She has been work here since 2021."
+          ],
+          "correct_answer": "She has worked here since 2021."
+        },
+        {
+          "type": "fill_blank",
+          "question": "I ___ (finish) my homework already.",
+          "correct_answer": "have finished"
+        },
+        {
+          "type": "fill_blank",
+          "question": "He ___ (not / call) me yet.",
+          "correct_answer": "has not called"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ you ever ___ (ride) a horse?",
+          "correct_answer": "Have you ever ridden"
+        },
+        {
+          "type": "fill_blank",
+          "question": "They ___ (live) in this apartment for six months.",
+          "correct_answer": "have lived"
+        },
+        {
+          "type": "fill_blank",
+          "question": "She ___ (just / send) the email.",
+          "correct_answer": "has just sent"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: I has never eaten octopus.",
+          "correct_answer": "I have never eaten octopus."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They have went to the bank.",
+          "correct_answer": "They have gone to the bank."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Has she finished her report yet?",
+          "correct_answer": "Has she finished her report yet?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: We didn't met him before.",
+          "correct_answer": "We have not met him before."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: He have lived here since 2015.",
+          "correct_answer": "He has lived here since 2015."
+        }
+      ]
+    },
+    {
+      "id": "past_perfect",
+      "name": "Past Perfect",
+      "explanation": "Use past perfect for an action that happened before another action in the past.",
+      "structure": "Subject + had + past participle",
+      "examples": [
+        "I had finished dinner before they arrived.",
+        "She had left the office when I called.",
+        "They had studied the chapter before the test started.",
+        "We had already seen that movie, so we chose another one.",
+        "He had never flown before his trip to Dubai.",
+        "The train had departed by the time we reached the station.",
+        "My brother had cleaned the kitchen before our guests came.",
+        "I had saved enough money before I bought the laptop.",
+        "The teacher had explained the rule before we practiced it.",
+        "She had completed the report before the deadline."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I had ate breakfast before class.",
+            "I had eaten breakfast before class.",
+            "I have eaten breakfast before class yesterday.",
+            "I had eating breakfast before class."
+          ],
+          "correct_answer": "I had eaten breakfast before class."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence uses past perfect correctly?",
+          "options": [
+            "She had finish the task before lunch.",
+            "She had finished the task before lunch.",
+            "She finished had the task before lunch.",
+            "She has finished the task before lunch yesterday."
+          ],
+          "correct_answer": "She had finished the task before lunch."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative form.",
+          "options": [
+            "They hadn't seen that place before.",
+            "They didn't had seen that place before.",
+            "They hadn't saw that place before.",
+            "They not had seen that place before."
+          ],
+          "correct_answer": "They hadn't seen that place before."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question.",
+          "options": [
+            "Had you completed the form before the interview?",
+            "Did you had completed the form before the interview?",
+            "Had you complete the form before the interview?",
+            "Have you completed the form before the interview?"
+          ],
+          "correct_answer": "Had you completed the form before the interview?"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the best sentence for two past events.",
+          "options": [
+            "When we arrived, the show started.",
+            "When we arrived, the show had started.",
+            "When we had arrived, the show has started.",
+            "When we arrive, the show had started."
+          ],
+          "correct_answer": "When we arrived, the show had started."
+        },
+        {
+          "type": "fill_blank",
+          "question": "By the time I reached the station, the train ___ (leave).",
+          "correct_answer": "had left"
+        },
+        {
+          "type": "fill_blank",
+          "question": "He was upset because he ___ (lose) his keys.",
+          "correct_answer": "had lost"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ they ___ (finish) the project before the deadline?",
+          "correct_answer": "Had they finished"
+        },
+        {
+          "type": "fill_blank",
+          "question": "We ___ (not / meet) each other before that day.",
+          "correct_answer": "had not met"
+        },
+        {
+          "type": "fill_blank",
+          "question": "She ___ (already / submit) the application before noon.",
+          "correct_answer": "had already submitted"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They had went home before the storm.",
+          "correct_answer": "They had gone home before the storm."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: I had not knew about the change.",
+          "correct_answer": "I had not known about the change."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Had she finished her work before she left?",
+          "correct_answer": "Had she finished her work before she left?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: We had saw that movie before.",
+          "correct_answer": "We had seen that movie before."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: He had not wrote the email when I arrived.",
+          "correct_answer": "He had not written the email when I arrived."
+        }
+      ]
+    },
+    {
+      "id": "present_perfect_continuous",
+      "name": "Present Perfect Continuous",
+      "explanation": "Use present perfect continuous for actions that started in the past and are still continuing, or have a visible result now.",
+      "structure": "Subject + have/has been + verb-ing (+ since/for)",
+      "examples": [
+        "I have been studying English for three years.",
+        "She has been working at this company since 2022.",
+        "They have been waiting for the bus for twenty minutes.",
+        "We have been practicing this dialogue all morning.",
+        "He has been learning to drive since January.",
+        "It has been raining since noon.",
+        "My parents have been living in this house for a decade.",
+        "I have been reading that novel for a week.",
+        "She has been preparing for her exam since last month.",
+        "The children have been playing outside for hours."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "She has been work here for two years.",
+            "She has been working here for two years.",
+            "She is been working here for two years.",
+            "She have been working here for two years."
+          ],
+          "correct_answer": "She has been working here for two years."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence is correct with 'for'?",
+          "options": [
+            "I have been waiting since two hours.",
+            "I have been waiting for two hours.",
+            "I am waiting for two hours.",
+            "I have waited for two hours now always."
+          ],
+          "correct_answer": "I have been waiting for two hours."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "He has not been sleeping well.",
+            "He has not sleeping well.",
+            "He have not been sleeping well.",
+            "He does not been sleeping well."
+          ],
+          "correct_answer": "He has not been sleeping well."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question form.",
+          "options": [
+            "Have you been waiting long?",
+            "Do you have been waiting long?",
+            "Have you waiting long?",
+            "Are you been waiting long?"
+          ],
+          "correct_answer": "Have you been waiting long?"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the best sentence with a present result.",
+          "options": [
+            "He has been running, so he is out of breath.",
+            "He has running, so he is out of breath.",
+            "He was running, so he is out of breath now.",
+            "He run since morning, so he is out of breath."
+          ],
+          "correct_answer": "He has been running, so he is out of breath."
+        },
+        {
+          "type": "fill_blank",
+          "question": "I ___ (study) for the exam since 7 p.m.",
+          "correct_answer": "have been studying"
+        },
+        {
+          "type": "fill_blank",
+          "question": "It ___ (rain) all afternoon.",
+          "correct_answer": "has been raining"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ she ___ (work) here for long?",
+          "correct_answer": "Has she been working"
+        },
+        {
+          "type": "fill_blank",
+          "question": "We ___ (not / sleep) enough these days.",
+          "correct_answer": "have not been sleeping"
+        },
+        {
+          "type": "fill_blank",
+          "question": "They ___ (build) the new bridge since March.",
+          "correct_answer": "have been building"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They has been waiting for an hour.",
+          "correct_answer": "They have been waiting for an hour."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: I am been working on this task all day.",
+          "correct_answer": "I have been working on this task all day."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Has he been studying since two weeks?",
+          "correct_answer": "Has he been studying for two weeks?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: She have been learning French for six months.",
+          "correct_answer": "She has been learning French for six months."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: We have been waited for the manager.",
+          "correct_answer": "We have been waiting for the manager."
+        }
+      ]
+    },
+    {
+      "id": "future_forms",
+      "name": "Future",
+      "explanation": "Use 'will' for decisions, promises, and predictions. Use 'going to' for plans and intentions.",
+      "structure": "Subject + will + base verb OR Subject + am/is/are going to + base verb",
+      "examples": [
+        "I will call you after class.",
+        "She will probably arrive late.",
+        "They are going to visit their grandparents this weekend.",
+        "We are going to start a new course next week.",
+        "He will help you with your assignment.",
+        "It will rain tomorrow.",
+        "My sister is going to study medicine.",
+        "I think the team will win tonight.",
+        "The company is going to open a new office next year.",
+        "You will enjoy this lesson."
+      ],
+      "practice_questions": [
+        {
+          "type": "mcq",
+          "question": "Choose the correct sentence.",
+          "options": [
+            "I will to call you later.",
+            "I will call you later.",
+            "I am will call you later.",
+            "I going to call you later."
+          ],
+          "correct_answer": "I will call you later."
+        },
+        {
+          "type": "mcq",
+          "question": "Which sentence shows a planned future action?",
+          "options": [
+            "I think it will be sunny.",
+            "I am going to visit my aunt next month.",
+            "I will answer the phone.",
+            "I will probably be late."
+          ],
+          "correct_answer": "I am going to visit my aunt next month."
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the correct negative sentence.",
+          "options": [
+            "She won't attend the meeting.",
+            "She will not attends the meeting.",
+            "She isn't will attend the meeting.",
+            "She not will attend the meeting."
+          ],
+          "correct_answer": "She won't attend the meeting."
+        },
+        {
+          "type": "mcq",
+          "question": "Pick the correct question.",
+          "options": [
+            "Are you going to join us?",
+            "Do you going to join us?",
+            "Will you going to join us?",
+            "Are you go to join us?"
+          ],
+          "correct_answer": "Are you going to join us?"
+        },
+        {
+          "type": "mcq",
+          "question": "Choose the best sentence for a quick decision.",
+          "options": [
+            "I am going to open the window.",
+            "I will open the window.",
+            "I open the window tomorrow.",
+            "I am open the window now."
+          ],
+          "correct_answer": "I will open the window."
+        },
+        {
+          "type": "fill_blank",
+          "question": "They ___ (travel) to Egypt next summer.",
+          "correct_answer": "are going to travel"
+        },
+        {
+          "type": "fill_blank",
+          "question": "I think he ___ (pass) the exam.",
+          "correct_answer": "will pass"
+        },
+        {
+          "type": "fill_blank",
+          "question": "___ you ___ (help) me with this bag?",
+          "correct_answer": "Will you help"
+        },
+        {
+          "type": "fill_blank",
+          "question": "She ___ (not / come) to class tomorrow.",
+          "correct_answer": "is not going to come"
+        },
+        {
+          "type": "fill_blank",
+          "question": "We ___ (meet) at the cafe at 5:00.",
+          "correct_answer": "are going to meet"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: He will going to buy a new car.",
+          "correct_answer": "He is going to buy a new car."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: I won't to forget your birthday.",
+          "correct_answer": "I won't forget your birthday."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: Are you going watch the game tonight?",
+          "correct_answer": "Are you going to watch the game tonight?"
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: They will arrives late because of traffic.",
+          "correct_answer": "They will arrive late because of traffic."
+        },
+        {
+          "type": "sentence_correction",
+          "question": "Correct: We are go to start at nine.",
+          "correct_answer": "We are going to start at nine."
+        }
+      ]
+    }
+  ]
+}

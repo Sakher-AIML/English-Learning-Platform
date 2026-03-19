@@ -1,9 +1,8 @@
-# Python
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
-.Python
-env/
-venv/
+database.db
 .env
+*.db-journal
+.vscode/
+node_modules/

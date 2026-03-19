@@ -22,6 +22,9 @@ app.secret_key = "change_this_secret_key"
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = BASE_DIR / "database.db"
 LESSONS_DIR = BASE_DIR / "lessons"
+VOCABULARY_DIR = BASE_DIR / "vocabulary"
+QUESTION_BANK_DIR = BASE_DIR / "question_bank"
+GRAMMAR_DIR = BASE_DIR / "grammar"
 LEVEL_ORDER = ["beginner", "intermediate", "advanced"]
 PASS_PERCENT = 70
 XP_PER_PASS = 25
@@ -98,7 +101,92 @@ def load_level_data(level):
     if not lesson_file.exists():
         return []
     with open(lesson_file, "r", encoding="utf-8") as file:
+        payload = json.load(file)
+
+    # Support both legacy list payloads and the new {"lessons": [...]} schema.
+    if isinstance(payload, dict):
+        lessons = payload.get("lessons")
+        return lessons if isinstance(lessons, list) else []
+    return payload if isinstance(payload, list) else []
+
+
+def get_beginner_lessons():
+    return load_level_data("beginner")
+
+
+def get_lesson_by_id(lesson_id):
+    lessons = get_beginner_lessons()
+    for lesson in lessons:
+        if lesson.get("id") == lesson_id:
+            return lesson
+    return None
+
+
+def load_json_payload(file_path, default=None):
+    if default is None:
+        default = {}
+    if not file_path.exists():
+        return default
+    with open(file_path, "r", encoding="utf-8") as file:
         return json.load(file)
+
+
+def load_vocabulary(level):
+    if level not in LEVEL_ORDER:
+        return {"level": level, "words": []}
+    return load_json_payload(VOCABULARY_DIR / f"{level}.json", {"level": level, "words": []})
+
+
+def load_question_bank(level):
+    if level not in LEVEL_ORDER:
+        return {"level": level, "questions": []}
+    return load_json_payload(
+        QUESTION_BANK_DIR / f"{level}.json",
+        {"level": level, "questions": []},
+    )
+
+
+def load_grammar_tenses():
+    payload = load_json_payload(GRAMMAR_DIR / "tenses.json", {"tenses": []})
+    if not isinstance(payload, dict):
+        return {"tenses": []}
+    tenses = payload.get("tenses", [])
+    return {"tenses": tenses if isinstance(tenses, list) else []}
+
+
+def load_grammar_topic(file_name):
+    payload = load_json_payload(GRAMMAR_DIR / file_name, {})
+    if not isinstance(payload, dict):
+        return None
+
+    questions = payload.get("questions", [])
+    payload["questions"] = questions if isinstance(questions, list) else []
+
+    rules = payload.get("rules", [])
+    payload["rules"] = rules if isinstance(rules, list) else []
+
+    examples = payload.get("examples", [])
+    payload["examples"] = examples if isinstance(examples, list) else []
+
+    categories = payload.get("categories", {})
+    payload["categories"] = categories if isinstance(categories, dict) else {}
+    return payload
+
+
+def get_grammar_topics():
+    topic_files = {
+        "articles": "articles.json",
+        "prepositions": "prepositions.json",
+    }
+
+    topics = []
+    for topic_id, file_name in topic_files.items():
+        topic = load_grammar_topic(file_name)
+        if not topic:
+            continue
+        topic["id"] = topic_id
+        topics.append(topic)
+    return topics
 
 
 def get_current_user():
@@ -386,7 +474,7 @@ def analytics():
     )
 
 
-@app.route("/lesson/<level>")
+@app.route("/level/<level>")
 def lesson(level):
     user = get_current_user()
     if not user:
@@ -427,6 +515,139 @@ def lesson(level):
     )
 
 
+@app.route("/lessons")
+def lessons():
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    beginner_lessons = get_beginner_lessons()
+    return render_template("lessons.html", lessons=beginner_lessons)
+
+
+@app.route("/vocabulary")
+def vocabulary():
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    level = request.args.get("level", "beginner").lower()
+    if level not in LEVEL_ORDER:
+        level = "beginner"
+
+    payload = load_vocabulary(level)
+    words = payload.get("words", []) if isinstance(payload, dict) else []
+
+    return render_template(
+        "vocabulary.html",
+        level=level,
+        levels=LEVEL_ORDER,
+        words=words,
+    )
+
+
+@app.route("/practice/<level>")
+def practice_bank(level):
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    level = level.lower()
+    if level not in LEVEL_ORDER:
+        return redirect(url_for("dashboard"))
+
+    payload = load_question_bank(level)
+    questions = payload.get("questions", []) if isinstance(payload, dict) else []
+
+    return render_template(
+        "practice_bank.html",
+        level=level,
+        levels=LEVEL_ORDER,
+        questions=questions,
+    )
+
+
+@app.route("/grammar")
+def grammar():
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    tenses_data = load_grammar_tenses()
+    return render_template(
+        "grammar.html",
+        tenses=tenses_data.get("tenses", []),
+        topics=get_grammar_topics(),
+    )
+
+
+@app.route("/grammar/<tense_id>")
+def grammar_tense(tense_id):
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    data = load_grammar_tenses()
+    target = None
+    for tense in data.get("tenses", []):
+        if tense.get("id") == tense_id:
+            target = tense
+            break
+
+    if not target:
+        flash("Tense not found.", "error")
+        return redirect(url_for("grammar"))
+
+    return render_template("grammar_tense.html", tense=target)
+
+
+@app.route("/grammar/topic/<topic_id>")
+def grammar_topic(topic_id):
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    target = None
+    for topic in get_grammar_topics():
+        if topic.get("id") == topic_id:
+            target = topic
+            break
+
+    if not target:
+        flash("Grammar topic not found.", "error")
+        return redirect(url_for("grammar"))
+
+    return render_template("grammar_topic.html", topic=target)
+
+
+@app.route("/lesson/<lesson_id>")
+def lesson_detail(lesson_id):
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    lesson = get_lesson_by_id(lesson_id)
+    if not lesson:
+        flash("Lesson not found.", "error")
+        return redirect(url_for("lessons"))
+
+    return render_template("lesson_detail.html", lesson=lesson)
+
+
+@app.route("/exercise/<lesson_id>")
+def exercise_by_id(lesson_id):
+    user = get_current_user()
+    if not user:
+        return redirect(url_for("login"))
+
+    lesson = get_lesson_by_id(lesson_id)
+    if not lesson:
+        flash("Lesson not found.", "error")
+        return redirect(url_for("lessons"))
+
+    return render_template("exercise_dynamic.html", lesson=lesson)
+
+
 @app.route("/exercise/<level>/<int:lesson_index>", methods=["GET", "POST"])
 def exercise(level, lesson_index):
     user = get_current_user()
@@ -462,7 +683,7 @@ def exercise(level, lesson_index):
 
         for q_idx, question in enumerate(questions):
             picked = request.form.get(f"q_{q_idx}", "")
-            correct_answer = question.get("answer")
+            correct_answer = question.get("answer", question.get("correct_answer", ""))
             is_correct = picked == correct_answer
             if is_correct:
                 score += 1

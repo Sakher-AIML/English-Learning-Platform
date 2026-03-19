@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Beginner Lessons - EnglishPath{% endblock %}
+
+{% block content %}
+<section class="card">
+    <p class="eyebrow">Beginner Track</p>
+    <h2>📚 Lessons</h2>
+    <p class="text-muted">Start a lesson to study vocabulary and grammar, then complete mixed practice questions.</p>
+    <div class="hero-actions">
+        {% if lessons %}
+            <a id="continueLearningBtn" class="btn btn-primary" href="{{ url_for('lesson_detail', lesson_id=lessons[0].id) }}">Continue Learning</a>
+        {% else %}
+            <button class="btn btn-primary" disabled>No Lessons Available</button>
+        {% endif %}
+        <a class="btn" href="{{ url_for('dashboard') }}">← Back to Dashboard</a>
+    </div>
+</section>
+
+<section class="lesson-list">
+    {% for lesson in lessons %}
+        <article class="card lesson-item" data-lesson-id="{{ lesson.id }}" data-lesson-title="{{ lesson.title|lower }}" data-lesson-desc="{{ lesson.description|lower }}">
+            <div class="lesson-info">
+                <div class="lesson-number">{{ loop.index }}</div>
+                <div>
+                    <h3>{{ lesson.title }}</h3>
+                    <p>{{ lesson.description }}</p>
+                    <p class="small mb-0">Words: {{ lesson.vocabulary|length }} | Questions: {{ lesson.questions|length }}</p>
+                </div>
+            </div>
+            <div class="lesson-actions">
+                <span class="badge badge-primary js-complete-badge" data-lesson-id="{{ lesson.id }}">Not Started</span>
+                <a class="btn btn-primary" href="{{ url_for('lesson_detail', lesson_id=lesson.id) }}">Start Lesson</a>
+            </div>
+        </article>
+    {% endfor %}
+</section>
+{% endblock %}

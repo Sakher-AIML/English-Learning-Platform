@@ -1,0 +1,1206 @@
+{
+  "level": "advanced",
+  "total": 150,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 1): The committee recommended that the policy ___ revised immediately.",
+      "options": [
+        "be",
+        "is",
+        "was",
+        "being"
+      ],
+      "correct_answer": "be",
+      "id": "advanced-q-001"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 2): Not until the audit was complete ___ they identify the discrepancy.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "were"
+      ],
+      "correct_answer": "did",
+      "id": "advanced-q-002"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 3): The rationale is plausible; ___, it remains unproven.",
+      "options": [
+        "however",
+        "because",
+        "therefore",
+        "unless"
+      ],
+      "correct_answer": "however",
+      "id": "advanced-q-003"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 4): Were the safeguards absent, systemic failure ___ be inevitable.",
+      "options": [
+        "would",
+        "will",
+        "shall",
+        "can"
+      ],
+      "correct_answer": "would",
+      "id": "advanced-q-004"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 5): No sooner had the hearing begun ___ new evidence emerged.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "advanced-q-005"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 6): The findings, though preliminary, ___ further investigation.",
+      "options": [
+        "warrant",
+        "warrants",
+        "warranted",
+        "warranting"
+      ],
+      "correct_answer": "warrant",
+      "id": "advanced-q-006"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 7): Only through sustained oversight ___ compliance be ensured.",
+      "options": [
+        "can",
+        "could",
+        "may",
+        "must"
+      ],
+      "correct_answer": "can",
+      "id": "advanced-q-007"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 8): The framework is predicated ___ transparency and accountability.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "advanced-q-008"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 9): At no stage ___ procedural fairness compromised.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "correct_answer": "was",
+      "id": "advanced-q-009"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 10): The recommendation is contingent ___ regulatory approval.",
+      "options": [
+        "upon",
+        "for",
+        "at",
+        "to"
+      ],
+      "correct_answer": "upon",
+      "id": "advanced-q-010"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 11): The committee recommended that the policy ___ revised immediately.",
+      "options": [
+        "be",
+        "is",
+        "was",
+        "being"
+      ],
+      "correct_answer": "be",
+      "id": "advanced-q-011"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 12): Not until the audit was complete ___ they identify the discrepancy.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "were"
+      ],
+      "correct_answer": "did",
+      "id": "advanced-q-012"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 13): The rationale is plausible; ___, it remains unproven.",
+      "options": [
+        "however",
+        "because",
+        "therefore",
+        "unless"
+      ],
+      "correct_answer": "however",
+      "id": "advanced-q-013"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 14): Were the safeguards absent, systemic failure ___ be inevitable.",
+      "options": [
+        "would",
+        "will",
+        "shall",
+        "can"
+      ],
+      "correct_answer": "would",
+      "id": "advanced-q-014"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 15): No sooner had the hearing begun ___ new evidence emerged.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "advanced-q-015"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 16): The findings, though preliminary, ___ further investigation.",
+      "options": [
+        "warrant",
+        "warrants",
+        "warranted",
+        "warranting"
+      ],
+      "correct_answer": "warrant",
+      "id": "advanced-q-016"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 17): Only through sustained oversight ___ compliance be ensured.",
+      "options": [
+        "can",
+        "could",
+        "may",
+        "must"
+      ],
+      "correct_answer": "can",
+      "id": "advanced-q-017"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 18): The framework is predicated ___ transparency and accountability.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "advanced-q-018"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 19): At no stage ___ procedural fairness compromised.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "correct_answer": "was",
+      "id": "advanced-q-019"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 20): The recommendation is contingent ___ regulatory approval.",
+      "options": [
+        "upon",
+        "for",
+        "at",
+        "to"
+      ],
+      "correct_answer": "upon",
+      "id": "advanced-q-020"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 21): The committee recommended that the policy ___ revised immediately.",
+      "options": [
+        "be",
+        "is",
+        "was",
+        "being"
+      ],
+      "correct_answer": "be",
+      "id": "advanced-q-021"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 22): Not until the audit was complete ___ they identify the discrepancy.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "were"
+      ],
+      "correct_answer": "did",
+      "id": "advanced-q-022"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 23): The rationale is plausible; ___, it remains unproven.",
+      "options": [
+        "however",
+        "because",
+        "therefore",
+        "unless"
+      ],
+      "correct_answer": "however",
+      "id": "advanced-q-023"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 24): Were the safeguards absent, systemic failure ___ be inevitable.",
+      "options": [
+        "would",
+        "will",
+        "shall",
+        "can"
+      ],
+      "correct_answer": "would",
+      "id": "advanced-q-024"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 25): No sooner had the hearing begun ___ new evidence emerged.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "advanced-q-025"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 26): The findings, though preliminary, ___ further investigation.",
+      "options": [
+        "warrant",
+        "warrants",
+        "warranted",
+        "warranting"
+      ],
+      "correct_answer": "warrant",
+      "id": "advanced-q-026"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 27): Only through sustained oversight ___ compliance be ensured.",
+      "options": [
+        "can",
+        "could",
+        "may",
+        "must"
+      ],
+      "correct_answer": "can",
+      "id": "advanced-q-027"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 28): The framework is predicated ___ transparency and accountability.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "advanced-q-028"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 29): At no stage ___ procedural fairness compromised.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "correct_answer": "was",
+      "id": "advanced-q-029"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 30): The recommendation is contingent ___ regulatory approval.",
+      "options": [
+        "upon",
+        "for",
+        "at",
+        "to"
+      ],
+      "correct_answer": "upon",
+      "id": "advanced-q-030"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 31): The committee recommended that the policy ___ revised immediately.",
+      "options": [
+        "be",
+        "is",
+        "was",
+        "being"
+      ],
+      "correct_answer": "be",
+      "id": "advanced-q-031"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 32): Not until the audit was complete ___ they identify the discrepancy.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "were"
+      ],
+      "correct_answer": "did",
+      "id": "advanced-q-032"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 33): The rationale is plausible; ___, it remains unproven.",
+      "options": [
+        "however",
+        "because",
+        "therefore",
+        "unless"
+      ],
+      "correct_answer": "however",
+      "id": "advanced-q-033"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 34): Were the safeguards absent, systemic failure ___ be inevitable.",
+      "options": [
+        "would",
+        "will",
+        "shall",
+        "can"
+      ],
+      "correct_answer": "would",
+      "id": "advanced-q-034"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 35): No sooner had the hearing begun ___ new evidence emerged.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "advanced-q-035"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 36): The findings, though preliminary, ___ further investigation.",
+      "options": [
+        "warrant",
+        "warrants",
+        "warranted",
+        "warranting"
+      ],
+      "correct_answer": "warrant",
+      "id": "advanced-q-036"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 37): Only through sustained oversight ___ compliance be ensured.",
+      "options": [
+        "can",
+        "could",
+        "may",
+        "must"
+      ],
+      "correct_answer": "can",
+      "id": "advanced-q-037"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 38): The framework is predicated ___ transparency and accountability.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "advanced-q-038"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 39): At no stage ___ procedural fairness compromised.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "correct_answer": "was",
+      "id": "advanced-q-039"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 40): The recommendation is contingent ___ regulatory approval.",
+      "options": [
+        "upon",
+        "for",
+        "at",
+        "to"
+      ],
+      "correct_answer": "upon",
+      "id": "advanced-q-040"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 41): The committee recommended that the policy ___ revised immediately.",
+      "options": [
+        "be",
+        "is",
+        "was",
+        "being"
+      ],
+      "correct_answer": "be",
+      "id": "advanced-q-041"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 42): Not until the audit was complete ___ they identify the discrepancy.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "were"
+      ],
+      "correct_answer": "did",
+      "id": "advanced-q-042"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 43): The rationale is plausible; ___, it remains unproven.",
+      "options": [
+        "however",
+        "because",
+        "therefore",
+        "unless"
+      ],
+      "correct_answer": "however",
+      "id": "advanced-q-043"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 44): Were the safeguards absent, systemic failure ___ be inevitable.",
+      "options": [
+        "would",
+        "will",
+        "shall",
+        "can"
+      ],
+      "correct_answer": "would",
+      "id": "advanced-q-044"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 45): No sooner had the hearing begun ___ new evidence emerged.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "advanced-q-045"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 46): The findings, though preliminary, ___ further investigation.",
+      "options": [
+        "warrant",
+        "warrants",
+        "warranted",
+        "warranting"
+      ],
+      "correct_answer": "warrant",
+      "id": "advanced-q-046"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 47): Only through sustained oversight ___ compliance be ensured.",
+      "options": [
+        "can",
+        "could",
+        "may",
+        "must"
+      ],
+      "correct_answer": "can",
+      "id": "advanced-q-047"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 48): The framework is predicated ___ transparency and accountability.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "advanced-q-048"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 49): At no stage ___ procedural fairness compromised.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "be"
+      ],
+      "correct_answer": "was",
+      "id": "advanced-q-049"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best formal option (Advanced MCQ 50): The recommendation is contingent ___ regulatory approval.",
+      "options": [
+        "upon",
+        "for",
+        "at",
+        "to"
+      ],
+      "correct_answer": "upon",
+      "id": "advanced-q-050"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 1): The claim lacks evidence to ___ the allegation.",
+      "correct_answer": "substantiate",
+      "id": "advanced-q-051"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 2): The committee insisted that all records ___ disclosed.",
+      "correct_answer": "be",
+      "id": "advanced-q-052"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 3): Hardly had the ruling been announced ___ objections emerged.",
+      "correct_answer": "when",
+      "id": "advanced-q-053"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 4): The policy is intended to ___ systemic risk.",
+      "correct_answer": "mitigate",
+      "id": "advanced-q-054"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 5): The argument is coherent ___ empirically weak.",
+      "correct_answer": "yet",
+      "id": "advanced-q-055"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 6): The guideline was revised in light ___ recent findings.",
+      "correct_answer": "of",
+      "id": "advanced-q-056"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 7): The report should be interpreted ___ caution.",
+      "correct_answer": "with",
+      "id": "advanced-q-057"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 8): The proposal remains viable ___ market conditions deteriorate.",
+      "correct_answer": "unless",
+      "id": "advanced-q-058"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 9): The committee reached consensus ___ prolonged deliberation.",
+      "correct_answer": "after",
+      "id": "advanced-q-059"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 10): The framework allows revision should circumstances ___ materially.",
+      "correct_answer": "change",
+      "id": "advanced-q-060"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 11): The claim lacks evidence to ___ the allegation.",
+      "correct_answer": "substantiate",
+      "id": "advanced-q-061"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 12): The committee insisted that all records ___ disclosed.",
+      "correct_answer": "be",
+      "id": "advanced-q-062"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 13): Hardly had the ruling been announced ___ objections emerged.",
+      "correct_answer": "when",
+      "id": "advanced-q-063"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 14): The policy is intended to ___ systemic risk.",
+      "correct_answer": "mitigate",
+      "id": "advanced-q-064"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 15): The argument is coherent ___ empirically weak.",
+      "correct_answer": "yet",
+      "id": "advanced-q-065"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 16): The guideline was revised in light ___ recent findings.",
+      "correct_answer": "of",
+      "id": "advanced-q-066"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 17): The report should be interpreted ___ caution.",
+      "correct_answer": "with",
+      "id": "advanced-q-067"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 18): The proposal remains viable ___ market conditions deteriorate.",
+      "correct_answer": "unless",
+      "id": "advanced-q-068"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 19): The committee reached consensus ___ prolonged deliberation.",
+      "correct_answer": "after",
+      "id": "advanced-q-069"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 20): The framework allows revision should circumstances ___ materially.",
+      "correct_answer": "change",
+      "id": "advanced-q-070"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 21): The claim lacks evidence to ___ the allegation.",
+      "correct_answer": "substantiate",
+      "id": "advanced-q-071"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 22): The committee insisted that all records ___ disclosed.",
+      "correct_answer": "be",
+      "id": "advanced-q-072"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 23): Hardly had the ruling been announced ___ objections emerged.",
+      "correct_answer": "when",
+      "id": "advanced-q-073"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 24): The policy is intended to ___ systemic risk.",
+      "correct_answer": "mitigate",
+      "id": "advanced-q-074"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 25): The argument is coherent ___ empirically weak.",
+      "correct_answer": "yet",
+      "id": "advanced-q-075"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 26): The guideline was revised in light ___ recent findings.",
+      "correct_answer": "of",
+      "id": "advanced-q-076"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 27): The report should be interpreted ___ caution.",
+      "correct_answer": "with",
+      "id": "advanced-q-077"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 28): The proposal remains viable ___ market conditions deteriorate.",
+      "correct_answer": "unless",
+      "id": "advanced-q-078"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 29): The committee reached consensus ___ prolonged deliberation.",
+      "correct_answer": "after",
+      "id": "advanced-q-079"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 30): The framework allows revision should circumstances ___ materially.",
+      "correct_answer": "change",
+      "id": "advanced-q-080"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 31): The claim lacks evidence to ___ the allegation.",
+      "correct_answer": "substantiate",
+      "id": "advanced-q-081"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 32): The committee insisted that all records ___ disclosed.",
+      "correct_answer": "be",
+      "id": "advanced-q-082"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 33): Hardly had the ruling been announced ___ objections emerged.",
+      "correct_answer": "when",
+      "id": "advanced-q-083"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 34): The policy is intended to ___ systemic risk.",
+      "correct_answer": "mitigate",
+      "id": "advanced-q-084"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 35): The argument is coherent ___ empirically weak.",
+      "correct_answer": "yet",
+      "id": "advanced-q-085"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 36): The guideline was revised in light ___ recent findings.",
+      "correct_answer": "of",
+      "id": "advanced-q-086"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 37): The report should be interpreted ___ caution.",
+      "correct_answer": "with",
+      "id": "advanced-q-087"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 38): The proposal remains viable ___ market conditions deteriorate.",
+      "correct_answer": "unless",
+      "id": "advanced-q-088"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 39): The committee reached consensus ___ prolonged deliberation.",
+      "correct_answer": "after",
+      "id": "advanced-q-089"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 40): The framework allows revision should circumstances ___ materially.",
+      "correct_answer": "change",
+      "id": "advanced-q-090"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 41): The claim lacks evidence to ___ the allegation.",
+      "correct_answer": "substantiate",
+      "id": "advanced-q-091"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 42): The committee insisted that all records ___ disclosed.",
+      "correct_answer": "be",
+      "id": "advanced-q-092"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 43): Hardly had the ruling been announced ___ objections emerged.",
+      "correct_answer": "when",
+      "id": "advanced-q-093"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 44): The policy is intended to ___ systemic risk.",
+      "correct_answer": "mitigate",
+      "id": "advanced-q-094"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 45): The argument is coherent ___ empirically weak.",
+      "correct_answer": "yet",
+      "id": "advanced-q-095"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 46): The guideline was revised in light ___ recent findings.",
+      "correct_answer": "of",
+      "id": "advanced-q-096"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 47): The report should be interpreted ___ caution.",
+      "correct_answer": "with",
+      "id": "advanced-q-097"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 48): The proposal remains viable ___ market conditions deteriorate.",
+      "correct_answer": "unless",
+      "id": "advanced-q-098"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 49): The committee reached consensus ___ prolonged deliberation.",
+      "correct_answer": "after",
+      "id": "advanced-q-099"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Advanced Fill 50): The framework allows revision should circumstances ___ materially.",
+      "correct_answer": "change",
+      "id": "advanced-q-100"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 1): The committee recommended that the policy is revised.",
+      "correct_answer": "The committee recommended that the policy be revised.",
+      "id": "advanced-q-101"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 2): No sooner the hearing had begun than the dispute escalated.",
+      "correct_answer": "No sooner had the hearing begun than the dispute escalated.",
+      "id": "advanced-q-102"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 3): The findings was insufficient to sustain the allegation.",
+      "correct_answer": "The findings were insufficient to sustain the allegation.",
+      "id": "advanced-q-103"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 4): The recommendation was made in according with the statute.",
+      "correct_answer": "The recommendation was made in accordance with the statute.",
+      "id": "advanced-q-104"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 5): At no stage the board did disclose confidential information.",
+      "correct_answer": "At no stage did the board disclose confidential information.",
+      "id": "advanced-q-105"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 6): The framework is predicated in transparency.",
+      "correct_answer": "The framework is predicated on transparency.",
+      "id": "advanced-q-106"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 7): The testimony, although detailed, were not credible.",
+      "correct_answer": "The testimony, although detailed, was not credible.",
+      "id": "advanced-q-107"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 8): The proposal was rejected due the absence of funding.",
+      "correct_answer": "The proposal was rejected due to the absence of funding.",
+      "id": "advanced-q-108"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 9): The claimant failed proving causation beyond reasonable doubt.",
+      "correct_answer": "The claimant failed to prove causation beyond reasonable doubt.",
+      "id": "advanced-q-109"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 10): Rarely such measures have produced immediate outcomes.",
+      "correct_answer": "Rarely have such measures produced immediate outcomes.",
+      "id": "advanced-q-110"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 11): The committee recommended that the policy is revised.",
+      "correct_answer": "The committee recommended that the policy be revised.",
+      "id": "advanced-q-111"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 12): No sooner the hearing had begun than the dispute escalated.",
+      "correct_answer": "No sooner had the hearing begun than the dispute escalated.",
+      "id": "advanced-q-112"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 13): The findings was insufficient to sustain the allegation.",
+      "correct_answer": "The findings were insufficient to sustain the allegation.",
+      "id": "advanced-q-113"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 14): The recommendation was made in according with the statute.",
+      "correct_answer": "The recommendation was made in accordance with the statute.",
+      "id": "advanced-q-114"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 15): At no stage the board did disclose confidential information.",
+      "correct_answer": "At no stage did the board disclose confidential information.",
+      "id": "advanced-q-115"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 16): The framework is predicated in transparency.",
+      "correct_answer": "The framework is predicated on transparency.",
+      "id": "advanced-q-116"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 17): The testimony, although detailed, were not credible.",
+      "correct_answer": "The testimony, although detailed, was not credible.",
+      "id": "advanced-q-117"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 18): The proposal was rejected due the absence of funding.",
+      "correct_answer": "The proposal was rejected due to the absence of funding.",
+      "id": "advanced-q-118"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 19): The claimant failed proving causation beyond reasonable doubt.",
+      "correct_answer": "The claimant failed to prove causation beyond reasonable doubt.",
+      "id": "advanced-q-119"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 20): Rarely such measures have produced immediate outcomes.",
+      "correct_answer": "Rarely have such measures produced immediate outcomes.",
+      "id": "advanced-q-120"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 21): The committee recommended that the policy is revised.",
+      "correct_answer": "The committee recommended that the policy be revised.",
+      "id": "advanced-q-121"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 22): No sooner the hearing had begun than the dispute escalated.",
+      "correct_answer": "No sooner had the hearing begun than the dispute escalated.",
+      "id": "advanced-q-122"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 23): The findings was insufficient to sustain the allegation.",
+      "correct_answer": "The findings were insufficient to sustain the allegation.",
+      "id": "advanced-q-123"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 24): The recommendation was made in according with the statute.",
+      "correct_answer": "The recommendation was made in accordance with the statute.",
+      "id": "advanced-q-124"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 25): At no stage the board did disclose confidential information.",
+      "correct_answer": "At no stage did the board disclose confidential information.",
+      "id": "advanced-q-125"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 26): The framework is predicated in transparency.",
+      "correct_answer": "The framework is predicated on transparency.",
+      "id": "advanced-q-126"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 27): The testimony, although detailed, were not credible.",
+      "correct_answer": "The testimony, although detailed, was not credible.",
+      "id": "advanced-q-127"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 28): The proposal was rejected due the absence of funding.",
+      "correct_answer": "The proposal was rejected due to the absence of funding.",
+      "id": "advanced-q-128"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 29): The claimant failed proving causation beyond reasonable doubt.",
+      "correct_answer": "The claimant failed to prove causation beyond reasonable doubt.",
+      "id": "advanced-q-129"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 30): Rarely such measures have produced immediate outcomes.",
+      "correct_answer": "Rarely have such measures produced immediate outcomes.",
+      "id": "advanced-q-130"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 31): The committee recommended that the policy is revised.",
+      "correct_answer": "The committee recommended that the policy be revised.",
+      "id": "advanced-q-131"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 32): No sooner the hearing had begun than the dispute escalated.",
+      "correct_answer": "No sooner had the hearing begun than the dispute escalated.",
+      "id": "advanced-q-132"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 33): The findings was insufficient to sustain the allegation.",
+      "correct_answer": "The findings were insufficient to sustain the allegation.",
+      "id": "advanced-q-133"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 34): The recommendation was made in according with the statute.",
+      "correct_answer": "The recommendation was made in accordance with the statute.",
+      "id": "advanced-q-134"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 35): At no stage the board did disclose confidential information.",
+      "correct_answer": "At no stage did the board disclose confidential information.",
+      "id": "advanced-q-135"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 36): The framework is predicated in transparency.",
+      "correct_answer": "The framework is predicated on transparency.",
+      "id": "advanced-q-136"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 37): The testimony, although detailed, were not credible.",
+      "correct_answer": "The testimony, although detailed, was not credible.",
+      "id": "advanced-q-137"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 38): The proposal was rejected due the absence of funding.",
+      "correct_answer": "The proposal was rejected due to the absence of funding.",
+      "id": "advanced-q-138"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 39): The claimant failed proving causation beyond reasonable doubt.",
+      "correct_answer": "The claimant failed to prove causation beyond reasonable doubt.",
+      "id": "advanced-q-139"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 40): Rarely such measures have produced immediate outcomes.",
+      "correct_answer": "Rarely have such measures produced immediate outcomes.",
+      "id": "advanced-q-140"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 41): The committee recommended that the policy is revised.",
+      "correct_answer": "The committee recommended that the policy be revised.",
+      "id": "advanced-q-141"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 42): No sooner the hearing had begun than the dispute escalated.",
+      "correct_answer": "No sooner had the hearing begun than the dispute escalated.",
+      "id": "advanced-q-142"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 43): The findings was insufficient to sustain the allegation.",
+      "correct_answer": "The findings were insufficient to sustain the allegation.",
+      "id": "advanced-q-143"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 44): The recommendation was made in according with the statute.",
+      "correct_answer": "The recommendation was made in accordance with the statute.",
+      "id": "advanced-q-144"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 45): At no stage the board did disclose confidential information.",
+      "correct_answer": "At no stage did the board disclose confidential information.",
+      "id": "advanced-q-145"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 46): The framework is predicated in transparency.",
+      "correct_answer": "The framework is predicated on transparency.",
+      "id": "advanced-q-146"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 47): The testimony, although detailed, were not credible.",
+      "correct_answer": "The testimony, although detailed, was not credible.",
+      "id": "advanced-q-147"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 48): The proposal was rejected due the absence of funding.",
+      "correct_answer": "The proposal was rejected due to the absence of funding.",
+      "id": "advanced-q-148"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 49): The claimant failed proving causation beyond reasonable doubt.",
+      "correct_answer": "The claimant failed to prove causation beyond reasonable doubt.",
+      "id": "advanced-q-149"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Advanced Correction 50): Rarely such measures have produced immediate outcomes.",
+      "correct_answer": "Rarely have such measures produced immediate outcomes.",
+      "id": "advanced-q-150"
+    }
+  ]
+}

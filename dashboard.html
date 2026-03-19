@@ -1,204 +1,126 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard — EnglishPath</title>
-    <meta name="description" content="Master English with structured levels, quizzes, and smart progress tracking.">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="bg-layer"></div>
-    <header class="topbar">
-        <a class="brand" href="index.html">
-            <span class="brand-icon">📘</span> EnglishPath
-        </a>
-        <nav>
-            <span id="nav-logged-out">
-                <a href="login.html">Login</a>
-                <a href="register.html" class="btn btn-primary" style="padding:7px 16px;font-size:0.88rem">Get Started</a>
-            </span>
-            <span id="nav-logged-in" style="display:none">
-                <a href="dashboard.html">📊 Dashboard</a>
-                <a href="analytics.html">📈 Analytics</a>
-                <a href="#" id="logoutBtn">Logout</a>
-            </span>
-            <button id="themeToggle" class="btn btn-icon btn-ghost" type="button" aria-label="Toggle theme" title="Switch theme">🌓</button>
-        </nav>
-    </header>
+{% extends "base.html" %}
 
-    <main class="container">
-        <div class="flash-wrap"></div>
+{% block title %}Dashboard — EnglishPath{% endblock %}
 
-        <!-- Welcome -->
-        <section class="card welcome-card">
-            <div>
-                <p class="eyebrow">Your Learning Hub</p>
-                <h2>Welcome back, <span id="dash-username">…</span> 👋</h2>
-                <p>Here's a snapshot of your progress. Keep the momentum going!</p>
-            </div>
-            <div class="welcome-avatar" id="dash-avatar">…</div>
-        </section>
+{% block content %}
+<!-- Welcome -->
+<section class="card welcome-card">
+    <div>
+        <p class="eyebrow">Your Learning Hub</p>
+        <h2>Welcome back, {{ username }} 👋</h2>
+        <p>Here's a snapshot of your progress. Keep the momentum going!</p>
+    </div>
+    <div class="welcome-avatar">{{ username[0]|upper }}</div>
+</section>
 
-        <!-- Stats -->
-        <section class="stats-grid">
-            <article class="card stat-card">
-                <span class="stat-icon">📊</span>
-                <p class="stat-label">Overall Completion</p>
-                <h3 class="stat-value text-primary"><span id="dash-overall">0</span>%</h3>
-                <div class="progress-line">
-                    <span class="progress-fill" id="dash-overall-bar" data-progress="0"></span>
-                </div>
-            </article>
-            <article class="card stat-card">
-                <span class="stat-icon">📖</span>
-                <p class="stat-label">Lessons Done</p>
-                <h3 class="stat-value"><span id="dash-done">0</span><span class="text-muted" style="font-size:1rem;font-weight:600"> / <span id="dash-total">0</span></span></h3>
-            </article>
-            <article class="card stat-card">
-                <span class="stat-icon">🔥</span>
-                <p class="stat-label">Daily Streak</p>
-                <h3 class="stat-value text-warning"><span id="dash-streak">0</span> <span id="dash-streak-label">days</span></h3>
-            </article>
-            <article class="card stat-card">
-                <span class="stat-icon">⭐</span>
-                <p class="stat-label">Total XP</p>
-                <h3 class="stat-value text-accent" id="dash-xp">0</h3>
-            </article>
-        </section>
-
-        <!-- Levels -->
-        <section class="card" style="background:transparent;border:none;box-shadow:none;padding:0">
-            <div class="section-head" style="margin-bottom:16px">
-                <h2 style="margin:0">🎓 Your Levels</h2>
-            </div>
-            <div class="level-grid" id="dash-level-grid">
-                <p class="small text-center" style="grid-column:1/-1">Loading levels…</p>
-            </div>
-        </section>
-
-        <!-- Recent Attempts -->
-        <section class="card">
-            <div class="section-head">
-                <h3>🗓️ Recent Attempts</h3>
-                <a class="btn btn-ghost" href="analytics.html">📈 Full Analytics</a>
-            </div>
-            <div id="dash-attempts">
-                <p class="small text-center">Loading…</p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="site-footer">
-        <div class="footer-inner">
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <span id="footer-logged-out">
-                    <a href="login.html">Login</a>
-                    <a href="register.html">Register</a>
-                </span>
-                <span id="footer-logged-in" style="display:none">
-                    <a href="dashboard.html">Dashboard</a>
-                    <a href="analytics.html">Analytics</a>
-                </span>
-            </div>
-            <p>© 2026 EnglishPath — Built for learners, by learners.</p>
+<!-- Stats -->
+<section class="stats-grid">
+    <article class="card stat-card">
+        <span class="stat-icon">📊</span>
+        <p class="stat-label">Overall Completion</p>
+        <h3 class="stat-value text-primary">{{ overall_completion }}%</h3>
+        <div class="progress-line">
+            <span class="progress-fill" data-progress="{{ overall_completion }}"></span>
         </div>
-    </footer>
+    </article>
+    <article class="card stat-card">
+        <span class="stat-icon">📖</span>
+        <p class="stat-label">Lessons Done</p>
+        <h3 class="stat-value">{{ completed_lessons }}<span class="text-muted" style="font-size:1rem;font-weight:600"> / {{ total_lessons }}</span></h3>
+    </article>
+    <article class="card stat-card">
+        <span class="stat-icon">🔥</span>
+        <p class="stat-label">Daily Streak</p>
+        <h3 class="stat-value text-warning">{{ streak_days }} day{{ '' if streak_days == 1 else 's' }}</h3>
+    </article>
+    <article class="card stat-card">
+        <span class="stat-icon">⭐</span>
+        <p class="stat-label">Total XP</p>
+        <h3 class="stat-value text-accent">{{ total_xp }}</h3>
+    </article>
+</section>
 
-    <script src="app.js"></script>
-    <script src="script.js"></script>
-    <script>
-        APP.updateNav();
-        if (!APP.requireLogin()) throw new Error("redirect");
+<section class="card">
+    <div class="section-head">
+        <h3>Continue Learning</h3>
+        <a id="dashboardContinueBtn" class="btn btn-primary" href="{{ url_for('lessons') }}">Continue Learning</a>
+    </div>
+    <p id="localProgressSummary" class="small mb-0">Beginner lesson completion (local): 0 completed</p>
+</section>
 
-        (function () {
-            var username = APP.getCurrentUser();
-            document.getElementById("dash-username").textContent = username;
-            document.getElementById("dash-avatar").textContent = username[0].toUpperCase();
+<!-- Levels -->
+<section class="card" style="background:transparent;border:none;box-shadow:none;padding:0">
+    <div class="section-head" style="margin-bottom:16px">
+        <h2 style="margin:0">🎓 Your Levels</h2>
+    </div>
+    <div class="level-grid">
+        {% for level in level_cards %}
+            <article class="card level-card {{ 'locked' if not level.unlocked else '' }}">
+                <div class="level-header">
+                    <span class="level-icon">
+                        {% if level.slug == 'beginner' %}🌱{% elif level.slug == 'intermediate' %}💪{% else %}🚀{% endif %}
+                    </span>
+                    <div>
+                        <h3>{{ level.title }}</h3>
+                        <p class="level-meta">{{ level.lessons }} lessons</p>
+                    </div>
+                </div>
+                <div class="progress-line">
+                    <span class="progress-fill" data-progress="{{ level.completion }}"></span>
+                </div>
+                <p class="small mt-0">{{ level.completion }}% complete</p>
 
-            var ICONS = { beginner: "🌱", intermediate: "💪", advanced: "🚀" };
+                {% if level.unlocked %}
+                    <a class="btn btn-primary" href="{{ url_for('lessons') if level.slug == 'beginner' else url_for('lesson', level=level.slug) }}" style="width:100%;text-align:center">
+                        {% if level.completion == 0 %}Start{% elif level.completion == 100 %}Review{% else %}Continue{% endif %} {{ level.title }}
+                    </a>
+                {% else %}
+                    <button class="btn" disabled style="width:100%">🔒 Complete Previous Level</button>
+                {% endif %}
+            </article>
+        {% endfor %}
+    </div>
+</section>
 
-            Promise.all(APP.LEVEL_ORDER.map(function (l) { return APP.loadLevelData(l); }))
-                .then(function (datasets) {
-                    var levelDataMap = {};
-                    APP.LEVEL_ORDER.forEach(function (l, i) { levelDataMap[l] = datasets[i]; });
-
-                    var progress = APP.getProgress(username);
-                    var completionMap = {};
-                    APP.LEVEL_ORDER.forEach(function (l) {
-                        completionMap[l] = APP.levelCompletionPercent(l, levelDataMap[l], progress);
-                    });
-
-                    var levelCards = APP.LEVEL_ORDER.map(function (l) {
-                        return {
-                            slug: l,
-                            title: l.charAt(0).toUpperCase() + l.slice(1),
-                            completion: completionMap[l],
-                            lessons: levelDataMap[l].length,
-                            unlocked: APP.isLevelUnlocked(l, completionMap),
-                        };
-                    });
-
-                    var totalLessons = levelCards.reduce(function (s, c) { return s + c.lessons; }, 0);
-                    var completedLessons = levelCards.reduce(function (s, c) { return s + Math.floor((c.completion * c.lessons) / 100); }, 0);
-                    var overallCompletion = totalLessons ? Math.round((completedLessons / totalLessons) * 100) : 0;
-                    var totalXP = APP.getTotalXP(progress);
-                    var streakDays = APP.getDailyStreak(username);
-                    var recentAttempts = APP.getAttempts(username).slice(0, 8);
-
-                    // Fill stats
-                    document.getElementById("dash-overall").textContent = overallCompletion;
-                    var bar = document.getElementById("dash-overall-bar");
-                    bar.dataset.progress = overallCompletion;
-                    bar.style.width = overallCompletion + "%";
-                    document.getElementById("dash-done").textContent = completedLessons;
-                    document.getElementById("dash-total").textContent = totalLessons;
-                    document.getElementById("dash-streak").textContent = streakDays;
-                    document.getElementById("dash-streak-label").textContent = streakDays === 1 ? "day" : "days";
-                    document.getElementById("dash-xp").textContent = totalXP;
-
-                    // Level cards
-                    var grid = document.getElementById("dash-level-grid");
-                    grid.innerHTML = levelCards.map(function (lc) {
-                        var label = lc.completion === 0 ? "Start" : lc.completion === 100 ? "Review" : "Continue";
-                        var btn = lc.unlocked
-                            ? '<a class="btn btn-primary" href="lesson.html?level=' + lc.slug + '" style="width:100%;text-align:center">' + label + ' ' + lc.title + '</a>'
-                            : '<button class="btn" disabled style="width:100%">🔒 Complete Previous Level</button>';
-                        return '<article class="card level-card' + (lc.unlocked ? '' : ' locked') + '">'
-                            + '<div class="level-header">'
-                            + '<span class="level-icon">' + (ICONS[lc.slug] || '📘') + '</span>'
-                            + '<div><h3>' + lc.title + '</h3><p class="level-meta">' + lc.lessons + ' lessons</p></div>'
-                            + '</div>'
-                            + '<div class="progress-line"><span class="progress-fill" data-progress="' + lc.completion + '" style="width:' + lc.completion + '%"></span></div>'
-                            + '<p class="small mt-0">' + lc.completion + '% complete</p>'
-                            + btn
-                            + '</article>';
-                    }).join("");
-
-                    // Recent attempts
-                    var attemptsEl = document.getElementById("dash-attempts");
-                    if (recentAttempts.length === 0) {
-                        attemptsEl.innerHTML = '<p class="small text-center">No attempts yet — start your first lesson to see your results here!</p>';
-                    } else {
-                        var rows = recentAttempts.map(function (a) {
-                            var badge = a.passed
-                                ? '<span class="badge">✓ Passed</span>'
-                                : '<span class="badge badge-danger">Retry</span>';
-                            var lvl = a.level.charAt(0).toUpperCase() + a.level.slice(1);
-                            return '<tr><td>' + lvl + '</td><td>Lesson ' + (a.lesson_index + 1) + '</td>'
-                                + '<td>' + a.score + '/' + a.total + ' (' + a.percent + '%)</td>'
-                                + '<td>' + badge + '</td>'
-                                + '<td>' + a.attempted_at + '</td></tr>';
-                        }).join("");
-                        attemptsEl.innerHTML = '<div class="table-wrap"><table class="data-table"><thead><tr>'
-                            + '<th>Level</th><th>Lesson</th><th>Score</th><th>Result</th><th>When</th>'
-                            + '</tr></thead><tbody>' + rows + '</tbody></table></div>';
-                    }
-
-                    APP.animatePage();
-                });
-        }());
-    </script>
-</body>
-</html>
+<!-- Recent Attempts -->
+<section class="card">
+    <div class="section-head">
+        <h3>🗓️ Recent Attempts</h3>
+        <a class="btn btn-ghost" href="{{ url_for('analytics') }}">📈 Full Analytics</a>
+    </div>
+    {% if recent_attempts %}
+        <div class="table-wrap">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Level</th>
+                        <th>Lesson</th>
+                        <th>Score</th>
+                        <th>Result</th>
+                        <th>When</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for attempt in recent_attempts %}
+                        <tr>
+                            <td>{{ attempt.level.title() }}</td>
+                            <td>Lesson {{ attempt.lesson_index + 1 }}</td>
+                            <td>{{ attempt.score }}/{{ attempt.total }} ({{ attempt.percent }}%)</td>
+                            <td>
+                                {% if attempt.passed %}
+                                    <span class="badge">✓ Passed</span>
+                                {% else %}
+                                    <span class="badge badge-danger">Retry</span>
+                                {% endif %}
+                            </td>
+                            <td>{{ attempt.attempted_at.replace('T', ' ') }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% else %}
+        <p class="small text-center">No attempts yet — start your first lesson to see your results here!</p>
+    {% endif %}
+</section>
+{% endblock %}

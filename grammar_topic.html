@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.topic }} - Grammar{% endblock %}
+
+{% block content %}
+<section class="grammar-detail-shell">
+    <article class="grammar-detail-banner">
+        <p class="eyebrow">Grammar Topic</p>
+        <h1>{{ topic.topic }}</h1>
+        <p>{{ topic.explanation }}</p>
+        <div class="hero-actions">
+            <a class="btn" href="{{ url_for('grammar') }}" data-page-transition="true">← Back to Grammar Hub</a>
+        </div>
+    </article>
+
+    <section class="grammar-detail-block">
+        <h3>Explanation</h3>
+        <p class="mb-0">{{ topic.explanation }}</p>
+    </section>
+
+    {% if topic.structure %}
+    <section class="grammar-detail-block grammar-structure-box">
+        <h3>Structure</h3>
+        <p class="mb-0"><code>{{ topic.structure }}</code></p>
+    </section>
+    {% endif %}
+
+    {% if topic.categories %}
+    <section class="grammar-detail-block">
+        <h3>Categories</h3>
+        {% for category_name, items in topic.categories.items() %}
+            <h4 class="grammar-subhead">{{ category_name|title }}</h4>
+            <ul class="grammar-examples-list">
+                {% for line in items %}
+                    <li>{{ line }}</li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    {% if topic.rules %}
+    <section class="grammar-detail-block">
+        <h3>Rules</h3>
+        <ul class="grammar-examples-list">
+            {% for line in topic.rules %}
+                <li>{{ line }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
+    <section class="grammar-detail-block">
+        <h3>Examples</h3>
+        <div class="grammar-example-grid">
+            {% for line in topic.examples %}
+                <article class="grammar-example-item">{{ line }}</article>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="grammar-detail-block">
+        <div class="section-head">
+            <h3>Practice</h3>
+            <span class="badge badge-primary">{{ topic.questions|length }} questions</span>
+        </div>
+        <div id="genericPracticeEngine"></div>
+        <script id="genericPracticeData" type="application/json">{{ {'title': topic.topic ~ ' Practice', 'id': topic.id, 'questions': topic.questions}|tojson }}</script>
+    </section>
+</section>
+{% endblock %}

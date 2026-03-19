@@ -1,0 +1,99 @@
+{
+  "topic": "Articles",
+  "id": "articles",
+  "explanation": "Articles are small words we use before nouns. Use 'a' and 'an' for one non-specific thing, and use 'the' for something specific or known.",
+  "structure": "article (a/an/the) + noun",
+  "rules": [
+    "Use 'a' before singular countable nouns that start with a consonant sound: a book, a teacher.",
+    "Use 'an' before singular countable nouns that start with a vowel sound: an apple, an hour.",
+    "Use 'the' when both speaker and listener know the noun: the door, the teacher.",
+    "Use 'the' for unique things: the sun, the moon, the internet.",
+    "Do not use 'a' or 'an' with plural or uncountable nouns in general meanings: I like music, Dogs are friendly."
+  ],
+  "examples": [
+    "I saw a dog in the park.",
+    "She ate an orange after lunch.",
+    "Can you close the window, please?",
+    "He is an honest man.",
+    "We visited the museum near our school.",
+    "A student asked the teacher a question.",
+    "The earth moves around the sun.",
+    "I need a pen and an eraser."
+  ],
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "She is a honest person.",
+        "She is an honest person.",
+        "She is the honest person.",
+        "She is honest person."
+      ],
+      "correct_answer": "She is an honest person."
+    },
+    {
+      "type": "fill_blank",
+      "question": "I bought ___ umbrella because it was raining.",
+      "correct_answer": "an"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Please open ___ door.",
+      "correct_answer": "the"
+    },
+    {
+      "type": "mcq",
+      "question": "Pick the correct option.",
+      "options": [
+        "He is a engineer.",
+        "He is an engineer.",
+        "He is engineer.",
+        "He is the engineer."
+      ],
+      "correct_answer": "He is an engineer."
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct: I saw an bird on tree.",
+      "correct_answer": "I saw a bird in a tree."
+    },
+    {
+      "type": "fill_blank",
+      "question": "___ sun rises in the east.",
+      "correct_answer": "The"
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence is correct?",
+      "options": [
+        "She bought a milk.",
+        "She bought milk.",
+        "She bought an milk.",
+        "She bought the milk always."
+      ],
+      "correct_answer": "She bought milk."
+    },
+    {
+      "type": "fill_blank",
+      "question": "He wants to be ___ doctor.",
+      "correct_answer": "a"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct: We watched the movie and movie was great.",
+      "correct_answer": "We watched a movie, and the movie was great."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best sentence.",
+      "options": [
+        "I have an car.",
+        "I have a car.",
+        "I have the car.",
+        "I have car."
+      ],
+      "correct_answer": "I have a car."
+    }
+  ]
+}

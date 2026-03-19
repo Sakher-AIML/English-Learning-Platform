@@ -9,143 +9,29 @@
 </head>
 <body>
     <div class="bg-layer"></div>
+
+    <!-- ═══ TOPBAR ═══ -->
     <header class="topbar">
-        <a class="brand" href="index.html">
+        <a class="brand" href="#" onclick="navigate('home');return false">
             <span class="brand-icon">📘</span> EnglishPath
         </a>
-        <nav>
-            <span id="nav-logged-out">
-                <a href="login.html">Login</a>
-                <a href="register.html" class="btn btn-primary" style="padding:7px 16px;font-size:0.88rem">Get Started</a>
-            </span>
-            <span id="nav-logged-in" style="display:none">
-                <a href="dashboard.html">📊 Dashboard</a>
-                <a href="analytics.html">📈 Analytics</a>
-                <a href="#" id="logoutBtn">Logout</a>
-            </span>
-            <button id="themeToggle" class="btn btn-icon btn-ghost" type="button" aria-label="Toggle theme" title="Switch theme">🌓</button>
-        </nav>
+        <nav id="mainNav"></nav>
     </header>
 
-    <main class="container">
-        <div class="flash-wrap"></div>
+    <!-- ═══ FLASH MESSAGE ═══ -->
+    <div id="flashWrap" class="flash-wrap container" style="display:none;padding-bottom:0;margin-bottom:0"></div>
 
-        <!-- Hero -->
-        <section class="hero card card-hero">
-            <div>
-                <p class="eyebrow">Your English Learning Journey</p>
-                <h1>Master English with Structured Levels &amp; Smart Practice</h1>
-                <p>
-                    Progress through beginner to advanced lessons with quiz-based learning,
-                    instant feedback, XP rewards, and a daily streak to keep you motivated.
-                </p>
-                <div class="hero-actions">
-                    <a class="btn btn-primary" href="register.html">🚀 Start Learning Free</a>
-                    <a class="btn" href="login.html">I have an account</a>
-                </div>
-            </div>
-            <div class="hero-panel">
-                <h3>✨ Platform Highlights</h3>
-                <ul>
-                    <li>Step-by-step level progression</li>
-                    <li>Detailed quiz history &amp; score tracking</li>
-                    <li>XP rewards &amp; daily learning streaks</li>
-                    <li>Question-by-question result review</li>
-                    <li>Dark &amp; light theme support</li>
-                </ul>
-            </div>
-        </section>
+    <!-- ═══ MAIN CONTENT ═══ -->
+    <main id="app" class="container"></main>
 
-        <!-- Features -->
-        <section class="feature-grid">
-            <article class="card feature-card">
-                <span class="feature-icon">🎯</span>
-                <h3>Guided Progression</h3>
-                <p>Lessons unlock sequentially so you always build on skills you've already mastered.</p>
-            </article>
-            <article class="card feature-card">
-                <span class="feature-icon">📊</span>
-                <h3>Performance Insights</h3>
-                <p>Track completion, accuracy, and streaks from a personalized analytics dashboard.</p>
-            </article>
-            <article class="card feature-card">
-                <span class="feature-icon">✅</span>
-                <h3>Instant Quiz Feedback</h3>
-                <p>See exactly what you got right and wrong with highlighted correct answers.</p>
-            </article>
-            <article class="card feature-card">
-                <span class="feature-icon">🏆</span>
-                <h3>XP &amp; Streaks</h3>
-                <p>Earn XP for passing quizzes and maintain a daily streak to stay consistent.</p>
-            </article>
-        </section>
-
-        <!-- How It Works -->
-        <section class="card" style="margin-top:8px">
-            <div class="section-head">
-                <h2>How It Works</h2>
-            </div>
-            <div class="steps-grid">
-                <div class="card step-card">
-                    <div class="step-number">1</div>
-                    <h3>Create an Account</h3>
-                    <p>Sign up in seconds — no credit card needed.</p>
-                </div>
-                <div class="card step-card">
-                    <div class="step-number">2</div>
-                    <h3>Choose Your Level</h3>
-                    <p>Start from Beginner or unlock higher levels by completing quizzes.</p>
-                </div>
-                <div class="card step-card">
-                    <div class="step-number">3</div>
-                    <h3>Take Quizzes</h3>
-                    <p>Answer questions, get instant results, and review every answer.</p>
-                </div>
-                <div class="card step-card">
-                    <div class="step-number">4</div>
-                    <h3>Track Progress</h3>
-                    <p>Watch your XP, streak, and accuracy grow on your dashboard.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Testimonial -->
-        <section class="card quote-card">
-            "EnglishPath helped me go from stumbling on basic greetings to confidently
-            using advanced grammar — all with a clear path and instant feedback."
-            <div class="quote-author">— A Happy Learner</div>
-        </section>
-
-        <!-- CTA -->
-        <section class="card cta-section">
-            <h2>Ready to Improve Your English?</h2>
-            <p>Join thousands of learners building their skills one lesson at a time.</p>
-            <div class="hero-actions" style="justify-content:center">
-                <a class="btn btn-primary" href="register.html">Create Free Account</a>
-                <a class="btn" href="login.html">Login</a>
-            </div>
-        </section>
-    </main>
-
+    <!-- ═══ FOOTER ═══ -->
     <footer class="site-footer">
         <div class="footer-inner">
-            <div class="footer-links">
-                <a href="index.html">Home</a>
-                <span id="footer-logged-out">
-                    <a href="login.html">Login</a>
-                    <a href="register.html">Register</a>
-                </span>
-                <span id="footer-logged-in" style="display:none">
-                    <a href="dashboard.html">Dashboard</a>
-                    <a href="analytics.html">Analytics</a>
-                </span>
-            </div>
+            <div class="footer-links" id="footerLinks"></div>
             <p>© 2026 EnglishPath — Built for learners, by learners.</p>
         </div>
     </footer>
 
-    <script src="app.js"></script>
     <script src="script.js"></script>
-    <script>APP.updateNav();</script>
 </body>
 </html>

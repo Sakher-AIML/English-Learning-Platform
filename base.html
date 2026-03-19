@@ -16,6 +16,10 @@
         <nav>
             {% if session.get("username") %}
                 <a href="{{ url_for('dashboard') }}">📊 Dashboard</a>
+                <a href="{{ url_for('lessons') }}">📚 Lessons</a>
+                <a href="{{ url_for('vocabulary') }}">🗂️ Vocabulary</a>
+                <a href="{{ url_for('grammar') }}">🧩 Grammar</a>
+                <a href="{{ url_for('practice_bank', level='beginner') }}">🧠 Practice</a>
                 <a href="{{ url_for('analytics') }}">📈 Analytics</a>
                 <a href="{{ url_for('logout') }}">Logout</a>
             {% else %}
@@ -46,13 +50,17 @@
                 <a href="{{ url_for('home') }}">Home</a>
                 {% if session.get('username') %}
                     <a href="{{ url_for('dashboard') }}">Dashboard</a>
+                    <a href="{{ url_for('lessons') }}">Lessons</a>
+                    <a href="{{ url_for('vocabulary') }}">Vocabulary</a>
+                    <a href="{{ url_for('grammar') }}">Grammar</a>
+                    <a href="{{ url_for('practice_bank', level='beginner') }}">Practice</a>
                     <a href="{{ url_for('analytics') }}">Analytics</a>
                 {% else %}
                     <a href="{{ url_for('login') }}">Login</a>
                     <a href="{{ url_for('register') }}">Register</a>
                 {% endif %}
             </div>
-            <p>© 2026 EnglishPath — Built for learners, by learners.</p>
+            <p>Made by Sakher Shabil</p>
         </div>
     </footer>
 

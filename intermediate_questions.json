@@ -1,0 +1,1206 @@
+{
+  "level": "intermediate",
+  "total": 150,
+  "questions": [
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 1): By the time we arrived, the meeting ___ .",
+      "options": [
+        "started",
+        "had started",
+        "has started",
+        "was start"
+      ],
+      "correct_answer": "had started",
+      "id": "intermediate-q-001"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 2): If I had more time, I ___ more.",
+      "options": [
+        "travel",
+        "would travel",
+        "will travel",
+        "traveled"
+      ],
+      "correct_answer": "would travel",
+      "id": "intermediate-q-002"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 3): She is responsible ___ preparing the report.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "with"
+      ],
+      "correct_answer": "for",
+      "id": "intermediate-q-003"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 4): I am used to ___ late during deadlines.",
+      "options": [
+        "work",
+        "working",
+        "worked",
+        "to work"
+      ],
+      "correct_answer": "working",
+      "id": "intermediate-q-004"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 5): The results depend ___ several factors.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "intermediate-q-005"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 6): She suggested ___ the meeting.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone",
+        "postponed"
+      ],
+      "correct_answer": "postponing",
+      "id": "intermediate-q-006"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 7): Neither of the options ___ acceptable.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "correct_answer": "is",
+      "id": "intermediate-q-007"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 8): No sooner had we sat down ___ the lights went out.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "intermediate-q-008"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 9): I would rather ___ home tonight.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "correct_answer": "stay",
+      "id": "intermediate-q-009"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 10): Only after the audit ___ they detect the error.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "are"
+      ],
+      "correct_answer": "did",
+      "id": "intermediate-q-010"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 11): By the time we arrived, the meeting ___ .",
+      "options": [
+        "started",
+        "had started",
+        "has started",
+        "was start"
+      ],
+      "correct_answer": "had started",
+      "id": "intermediate-q-011"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 12): If I had more time, I ___ more.",
+      "options": [
+        "travel",
+        "would travel",
+        "will travel",
+        "traveled"
+      ],
+      "correct_answer": "would travel",
+      "id": "intermediate-q-012"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 13): She is responsible ___ preparing the report.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "with"
+      ],
+      "correct_answer": "for",
+      "id": "intermediate-q-013"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 14): I am used to ___ late during deadlines.",
+      "options": [
+        "work",
+        "working",
+        "worked",
+        "to work"
+      ],
+      "correct_answer": "working",
+      "id": "intermediate-q-014"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 15): The results depend ___ several factors.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "intermediate-q-015"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 16): She suggested ___ the meeting.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone",
+        "postponed"
+      ],
+      "correct_answer": "postponing",
+      "id": "intermediate-q-016"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 17): Neither of the options ___ acceptable.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "correct_answer": "is",
+      "id": "intermediate-q-017"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 18): No sooner had we sat down ___ the lights went out.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "intermediate-q-018"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 19): I would rather ___ home tonight.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "correct_answer": "stay",
+      "id": "intermediate-q-019"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 20): Only after the audit ___ they detect the error.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "are"
+      ],
+      "correct_answer": "did",
+      "id": "intermediate-q-020"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 21): By the time we arrived, the meeting ___ .",
+      "options": [
+        "started",
+        "had started",
+        "has started",
+        "was start"
+      ],
+      "correct_answer": "had started",
+      "id": "intermediate-q-021"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 22): If I had more time, I ___ more.",
+      "options": [
+        "travel",
+        "would travel",
+        "will travel",
+        "traveled"
+      ],
+      "correct_answer": "would travel",
+      "id": "intermediate-q-022"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 23): She is responsible ___ preparing the report.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "with"
+      ],
+      "correct_answer": "for",
+      "id": "intermediate-q-023"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 24): I am used to ___ late during deadlines.",
+      "options": [
+        "work",
+        "working",
+        "worked",
+        "to work"
+      ],
+      "correct_answer": "working",
+      "id": "intermediate-q-024"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 25): The results depend ___ several factors.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "intermediate-q-025"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 26): She suggested ___ the meeting.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone",
+        "postponed"
+      ],
+      "correct_answer": "postponing",
+      "id": "intermediate-q-026"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 27): Neither of the options ___ acceptable.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "correct_answer": "is",
+      "id": "intermediate-q-027"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 28): No sooner had we sat down ___ the lights went out.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "intermediate-q-028"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 29): I would rather ___ home tonight.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "correct_answer": "stay",
+      "id": "intermediate-q-029"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 30): Only after the audit ___ they detect the error.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "are"
+      ],
+      "correct_answer": "did",
+      "id": "intermediate-q-030"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 31): By the time we arrived, the meeting ___ .",
+      "options": [
+        "started",
+        "had started",
+        "has started",
+        "was start"
+      ],
+      "correct_answer": "had started",
+      "id": "intermediate-q-031"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 32): If I had more time, I ___ more.",
+      "options": [
+        "travel",
+        "would travel",
+        "will travel",
+        "traveled"
+      ],
+      "correct_answer": "would travel",
+      "id": "intermediate-q-032"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 33): She is responsible ___ preparing the report.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "with"
+      ],
+      "correct_answer": "for",
+      "id": "intermediate-q-033"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 34): I am used to ___ late during deadlines.",
+      "options": [
+        "work",
+        "working",
+        "worked",
+        "to work"
+      ],
+      "correct_answer": "working",
+      "id": "intermediate-q-034"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 35): The results depend ___ several factors.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "intermediate-q-035"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 36): She suggested ___ the meeting.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone",
+        "postponed"
+      ],
+      "correct_answer": "postponing",
+      "id": "intermediate-q-036"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 37): Neither of the options ___ acceptable.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "correct_answer": "is",
+      "id": "intermediate-q-037"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 38): No sooner had we sat down ___ the lights went out.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "intermediate-q-038"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 39): I would rather ___ home tonight.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "correct_answer": "stay",
+      "id": "intermediate-q-039"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 40): Only after the audit ___ they detect the error.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "are"
+      ],
+      "correct_answer": "did",
+      "id": "intermediate-q-040"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 41): By the time we arrived, the meeting ___ .",
+      "options": [
+        "started",
+        "had started",
+        "has started",
+        "was start"
+      ],
+      "correct_answer": "had started",
+      "id": "intermediate-q-041"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 42): If I had more time, I ___ more.",
+      "options": [
+        "travel",
+        "would travel",
+        "will travel",
+        "traveled"
+      ],
+      "correct_answer": "would travel",
+      "id": "intermediate-q-042"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 43): She is responsible ___ preparing the report.",
+      "options": [
+        "for",
+        "to",
+        "at",
+        "with"
+      ],
+      "correct_answer": "for",
+      "id": "intermediate-q-043"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 44): I am used to ___ late during deadlines.",
+      "options": [
+        "work",
+        "working",
+        "worked",
+        "to work"
+      ],
+      "correct_answer": "working",
+      "id": "intermediate-q-044"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 45): The results depend ___ several factors.",
+      "options": [
+        "on",
+        "in",
+        "of",
+        "at"
+      ],
+      "correct_answer": "on",
+      "id": "intermediate-q-045"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 46): She suggested ___ the meeting.",
+      "options": [
+        "postponing",
+        "to postpone",
+        "postpone",
+        "postponed"
+      ],
+      "correct_answer": "postponing",
+      "id": "intermediate-q-046"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 47): Neither of the options ___ acceptable.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "be"
+      ],
+      "correct_answer": "is",
+      "id": "intermediate-q-047"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 48): No sooner had we sat down ___ the lights went out.",
+      "options": [
+        "than",
+        "when",
+        "that",
+        "as"
+      ],
+      "correct_answer": "than",
+      "id": "intermediate-q-048"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 49): I would rather ___ home tonight.",
+      "options": [
+        "stay",
+        "to stay",
+        "staying",
+        "stayed"
+      ],
+      "correct_answer": "stay",
+      "id": "intermediate-q-049"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best option (Intermediate MCQ 50): Only after the audit ___ they detect the error.",
+      "options": [
+        "did",
+        "do",
+        "have",
+        "are"
+      ],
+      "correct_answer": "did",
+      "id": "intermediate-q-050"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 1): She apologized ___ being late.",
+      "correct_answer": "for",
+      "id": "intermediate-q-051"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 2): We look forward to ___ from you.",
+      "correct_answer": "hearing",
+      "id": "intermediate-q-052"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 3): If he ___ earlier, he would have caught the train.",
+      "correct_answer": "had left",
+      "id": "intermediate-q-053"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 4): The policy applies ___ all departments.",
+      "correct_answer": "to",
+      "id": "intermediate-q-054"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 5): The team has worked here ___ 2019.",
+      "correct_answer": "since",
+      "id": "intermediate-q-055"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 6): We have waited ___ three hours.",
+      "correct_answer": "for",
+      "id": "intermediate-q-056"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 7): He insisted that she ___ present.",
+      "correct_answer": "be",
+      "id": "intermediate-q-057"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 8): They succeeded ___ reducing costs.",
+      "correct_answer": "in",
+      "id": "intermediate-q-058"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 9): The issue was discussed ___ detail.",
+      "correct_answer": "in",
+      "id": "intermediate-q-059"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 10): She was absent ___ class yesterday.",
+      "correct_answer": "from",
+      "id": "intermediate-q-060"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 11): She apologized ___ being late.",
+      "correct_answer": "for",
+      "id": "intermediate-q-061"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 12): We look forward to ___ from you.",
+      "correct_answer": "hearing",
+      "id": "intermediate-q-062"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 13): If he ___ earlier, he would have caught the train.",
+      "correct_answer": "had left",
+      "id": "intermediate-q-063"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 14): The policy applies ___ all departments.",
+      "correct_answer": "to",
+      "id": "intermediate-q-064"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 15): The team has worked here ___ 2019.",
+      "correct_answer": "since",
+      "id": "intermediate-q-065"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 16): We have waited ___ three hours.",
+      "correct_answer": "for",
+      "id": "intermediate-q-066"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 17): He insisted that she ___ present.",
+      "correct_answer": "be",
+      "id": "intermediate-q-067"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 18): They succeeded ___ reducing costs.",
+      "correct_answer": "in",
+      "id": "intermediate-q-068"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 19): The issue was discussed ___ detail.",
+      "correct_answer": "in",
+      "id": "intermediate-q-069"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 20): She was absent ___ class yesterday.",
+      "correct_answer": "from",
+      "id": "intermediate-q-070"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 21): She apologized ___ being late.",
+      "correct_answer": "for",
+      "id": "intermediate-q-071"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 22): We look forward to ___ from you.",
+      "correct_answer": "hearing",
+      "id": "intermediate-q-072"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 23): If he ___ earlier, he would have caught the train.",
+      "correct_answer": "had left",
+      "id": "intermediate-q-073"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 24): The policy applies ___ all departments.",
+      "correct_answer": "to",
+      "id": "intermediate-q-074"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 25): The team has worked here ___ 2019.",
+      "correct_answer": "since",
+      "id": "intermediate-q-075"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 26): We have waited ___ three hours.",
+      "correct_answer": "for",
+      "id": "intermediate-q-076"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 27): He insisted that she ___ present.",
+      "correct_answer": "be",
+      "id": "intermediate-q-077"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 28): They succeeded ___ reducing costs.",
+      "correct_answer": "in",
+      "id": "intermediate-q-078"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 29): The issue was discussed ___ detail.",
+      "correct_answer": "in",
+      "id": "intermediate-q-079"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 30): She was absent ___ class yesterday.",
+      "correct_answer": "from",
+      "id": "intermediate-q-080"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 31): She apologized ___ being late.",
+      "correct_answer": "for",
+      "id": "intermediate-q-081"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 32): We look forward to ___ from you.",
+      "correct_answer": "hearing",
+      "id": "intermediate-q-082"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 33): If he ___ earlier, he would have caught the train.",
+      "correct_answer": "had left",
+      "id": "intermediate-q-083"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 34): The policy applies ___ all departments.",
+      "correct_answer": "to",
+      "id": "intermediate-q-084"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 35): The team has worked here ___ 2019.",
+      "correct_answer": "since",
+      "id": "intermediate-q-085"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 36): We have waited ___ three hours.",
+      "correct_answer": "for",
+      "id": "intermediate-q-086"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 37): He insisted that she ___ present.",
+      "correct_answer": "be",
+      "id": "intermediate-q-087"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 38): They succeeded ___ reducing costs.",
+      "correct_answer": "in",
+      "id": "intermediate-q-088"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 39): The issue was discussed ___ detail.",
+      "correct_answer": "in",
+      "id": "intermediate-q-089"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 40): She was absent ___ class yesterday.",
+      "correct_answer": "from",
+      "id": "intermediate-q-090"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 41): She apologized ___ being late.",
+      "correct_answer": "for",
+      "id": "intermediate-q-091"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 42): We look forward to ___ from you.",
+      "correct_answer": "hearing",
+      "id": "intermediate-q-092"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 43): If he ___ earlier, he would have caught the train.",
+      "correct_answer": "had left",
+      "id": "intermediate-q-093"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 44): The policy applies ___ all departments.",
+      "correct_answer": "to",
+      "id": "intermediate-q-094"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 45): The team has worked here ___ 2019.",
+      "correct_answer": "since",
+      "id": "intermediate-q-095"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 46): We have waited ___ three hours.",
+      "correct_answer": "for",
+      "id": "intermediate-q-096"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 47): He insisted that she ___ present.",
+      "correct_answer": "be",
+      "id": "intermediate-q-097"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 48): They succeeded ___ reducing costs.",
+      "correct_answer": "in",
+      "id": "intermediate-q-098"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 49): The issue was discussed ___ detail.",
+      "correct_answer": "in",
+      "id": "intermediate-q-099"
+    },
+    {
+      "type": "fill_blank",
+      "question": "Fill in the blank (Intermediate Fill 50): She was absent ___ class yesterday.",
+      "correct_answer": "from",
+      "id": "intermediate-q-100"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 1): She suggested to change the plan.",
+      "correct_answer": "She suggested changing the plan.",
+      "id": "intermediate-q-101"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 2): The data indicates clear growth.",
+      "correct_answer": "The data indicate clear growth.",
+      "id": "intermediate-q-102"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 3): If I would know, I would tell you.",
+      "correct_answer": "If I knew, I would tell you.",
+      "id": "intermediate-q-103"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 4): We look forward to hear from you.",
+      "correct_answer": "We look forward to hearing from you.",
+      "id": "intermediate-q-104"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 5): He is responsible of training new staff.",
+      "correct_answer": "He is responsible for training new staff.",
+      "id": "intermediate-q-105"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 6): They prevented us to enter the hall.",
+      "correct_answer": "They prevented us from entering the hall.",
+      "id": "intermediate-q-106"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 7): She denied to copy the file.",
+      "correct_answer": "She denied copying the file.",
+      "id": "intermediate-q-107"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 8): The manager asked did we finish.",
+      "correct_answer": "The manager asked whether we had finished.",
+      "id": "intermediate-q-108"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 9): We have been here since two weeks.",
+      "correct_answer": "We have been here for two weeks.",
+      "id": "intermediate-q-109"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 10): Neither of these answers are correct.",
+      "correct_answer": "Neither of these answers is correct.",
+      "id": "intermediate-q-110"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 11): She suggested to change the plan.",
+      "correct_answer": "She suggested changing the plan.",
+      "id": "intermediate-q-111"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 12): The data indicates clear growth.",
+      "correct_answer": "The data indicate clear growth.",
+      "id": "intermediate-q-112"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 13): If I would know, I would tell you.",
+      "correct_answer": "If I knew, I would tell you.",
+      "id": "intermediate-q-113"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 14): We look forward to hear from you.",
+      "correct_answer": "We look forward to hearing from you.",
+      "id": "intermediate-q-114"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 15): He is responsible of training new staff.",
+      "correct_answer": "He is responsible for training new staff.",
+      "id": "intermediate-q-115"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 16): They prevented us to enter the hall.",
+      "correct_answer": "They prevented us from entering the hall.",
+      "id": "intermediate-q-116"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 17): She denied to copy the file.",
+      "correct_answer": "She denied copying the file.",
+      "id": "intermediate-q-117"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 18): The manager asked did we finish.",
+      "correct_answer": "The manager asked whether we had finished.",
+      "id": "intermediate-q-118"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 19): We have been here since two weeks.",
+      "correct_answer": "We have been here for two weeks.",
+      "id": "intermediate-q-119"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 20): Neither of these answers are correct.",
+      "correct_answer": "Neither of these answers is correct.",
+      "id": "intermediate-q-120"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 21): She suggested to change the plan.",
+      "correct_answer": "She suggested changing the plan.",
+      "id": "intermediate-q-121"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 22): The data indicates clear growth.",
+      "correct_answer": "The data indicate clear growth.",
+      "id": "intermediate-q-122"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 23): If I would know, I would tell you.",
+      "correct_answer": "If I knew, I would tell you.",
+      "id": "intermediate-q-123"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 24): We look forward to hear from you.",
+      "correct_answer": "We look forward to hearing from you.",
+      "id": "intermediate-q-124"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 25): He is responsible of training new staff.",
+      "correct_answer": "He is responsible for training new staff.",
+      "id": "intermediate-q-125"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 26): They prevented us to enter the hall.",
+      "correct_answer": "They prevented us from entering the hall.",
+      "id": "intermediate-q-126"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 27): She denied to copy the file.",
+      "correct_answer": "She denied copying the file.",
+      "id": "intermediate-q-127"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 28): The manager asked did we finish.",
+      "correct_answer": "The manager asked whether we had finished.",
+      "id": "intermediate-q-128"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 29): We have been here since two weeks.",
+      "correct_answer": "We have been here for two weeks.",
+      "id": "intermediate-q-129"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 30): Neither of these answers are correct.",
+      "correct_answer": "Neither of these answers is correct.",
+      "id": "intermediate-q-130"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 31): She suggested to change the plan.",
+      "correct_answer": "She suggested changing the plan.",
+      "id": "intermediate-q-131"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 32): The data indicates clear growth.",
+      "correct_answer": "The data indicate clear growth.",
+      "id": "intermediate-q-132"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 33): If I would know, I would tell you.",
+      "correct_answer": "If I knew, I would tell you.",
+      "id": "intermediate-q-133"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 34): We look forward to hear from you.",
+      "correct_answer": "We look forward to hearing from you.",
+      "id": "intermediate-q-134"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 35): He is responsible of training new staff.",
+      "correct_answer": "He is responsible for training new staff.",
+      "id": "intermediate-q-135"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 36): They prevented us to enter the hall.",
+      "correct_answer": "They prevented us from entering the hall.",
+      "id": "intermediate-q-136"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 37): She denied to copy the file.",
+      "correct_answer": "She denied copying the file.",
+      "id": "intermediate-q-137"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 38): The manager asked did we finish.",
+      "correct_answer": "The manager asked whether we had finished.",
+      "id": "intermediate-q-138"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 39): We have been here since two weeks.",
+      "correct_answer": "We have been here for two weeks.",
+      "id": "intermediate-q-139"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 40): Neither of these answers are correct.",
+      "correct_answer": "Neither of these answers is correct.",
+      "id": "intermediate-q-140"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 41): She suggested to change the plan.",
+      "correct_answer": "She suggested changing the plan.",
+      "id": "intermediate-q-141"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 42): The data indicates clear growth.",
+      "correct_answer": "The data indicate clear growth.",
+      "id": "intermediate-q-142"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 43): If I would know, I would tell you.",
+      "correct_answer": "If I knew, I would tell you.",
+      "id": "intermediate-q-143"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 44): We look forward to hear from you.",
+      "correct_answer": "We look forward to hearing from you.",
+      "id": "intermediate-q-144"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 45): He is responsible of training new staff.",
+      "correct_answer": "He is responsible for training new staff.",
+      "id": "intermediate-q-145"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 46): They prevented us to enter the hall.",
+      "correct_answer": "They prevented us from entering the hall.",
+      "id": "intermediate-q-146"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 47): She denied to copy the file.",
+      "correct_answer": "She denied copying the file.",
+      "id": "intermediate-q-147"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 48): The manager asked did we finish.",
+      "correct_answer": "The manager asked whether we had finished.",
+      "id": "intermediate-q-148"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 49): We have been here since two weeks.",
+      "correct_answer": "We have been here for two weeks.",
+      "id": "intermediate-q-149"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct this sentence (Intermediate Correction 50): Neither of these answers are correct.",
+      "correct_answer": "Neither of these answers is correct.",
+      "id": "intermediate-q-150"
+    }
+  ]
+}

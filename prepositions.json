@@ -1,0 +1,117 @@
+{
+  "topic": "Prepositions",
+  "id": "prepositions",
+  "explanation": "Prepositions are words that show relationships between words. They can show time, place, and direction.",
+  "structure": "preposition + noun phrase (at 9:00, on the table, into the room)",
+  "categories": {
+    "time": [
+      "in: used for months, years, seasons, and parts of the day (in July, in 2026, in the morning)",
+      "on: used for days and dates (on Monday, on March 20)",
+      "at: used for exact times and specific points (at 8:00, at noon)"
+    ],
+    "place": [
+      "in: inside an area or space (in the room, in London)",
+      "on: on a surface (on the table, on the wall)",
+      "under: below something (under the bed)",
+      "between: in the middle of two things (between the bank and the cafe)"
+    ],
+    "direction": [
+      "to: movement toward a destination (go to school)",
+      "into: movement from outside to inside (walk into the room)",
+      "onto: movement to a surface (jump onto the stage)"
+    ]
+  },
+  "rules": [
+    "Use 'in' for longer time periods and larger places.",
+    "Use 'on' for days, dates, and surfaces.",
+    "Use 'at' for exact times and exact points.",
+    "Use 'between' when there are two clear objects or points.",
+    "Use 'into' and 'onto' for movement, not position."
+  ],
+  "examples": [
+    "We have class at 9:00.",
+    "My birthday is in May.",
+    "They will travel on Friday.",
+    "The keys are on the desk.",
+    "The cat is under the chair.",
+    "The library is between the school and the park.",
+    "She walked into the office.",
+    "He climbed onto the roof."
+  ],
+  "questions": [
+    {
+      "type": "fill_blank",
+      "question": "The meeting starts ___ 10:30.",
+      "correct_answer": "at"
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the correct sentence.",
+      "options": [
+        "I was born on 2005.",
+        "I was born in 2005.",
+        "I was born at 2005.",
+        "I was born to 2005."
+      ],
+      "correct_answer": "I was born in 2005."
+    },
+    {
+      "type": "fill_blank",
+      "question": "The picture is ___ the wall.",
+      "correct_answer": "on"
+    },
+    {
+      "type": "mcq",
+      "question": "Pick the correct option.",
+      "options": [
+        "She walked to the room and sat down.",
+        "She walked into the room and sat down.",
+        "She walked at the room and sat down.",
+        "She walked on the room and sat down."
+      ],
+      "correct_answer": "She walked into the room and sat down."
+    },
+    {
+      "type": "fill_blank",
+      "question": "I will see you ___ Monday.",
+      "correct_answer": "on"
+    },
+    {
+      "type": "sentence_correction",
+      "question": "Correct: The shoes are in the floor.",
+      "correct_answer": "The shoes are on the floor."
+    },
+    {
+      "type": "mcq",
+      "question": "Choose the best sentence.",
+      "options": [
+        "The bank is between the post office.",
+        "The bank is between the post office and the pharmacy.",
+        "The bank is under the street.",
+        "The bank is onto the corner."
+      ],
+      "correct_answer": "The bank is between the post office and the pharmacy."
+    },
+    {
+      "type": "fill_blank",
+      "question": "The ball rolled ___ the table.",
+      "correct_answer": "under"
+    },
+    {
+      "type": "mcq",
+      "question": "Which sentence uses direction correctly?",
+      "options": [
+        "He jumped into the chair.",
+        "He jumped onto the chair.",
+        "He jumped at the chair.",
+        "He jumped between the chair."
+      ],
+      "correct_answer": "He jumped onto the chair."
+    },
+    {
+      "type": "fill_blank",
+      "question": "They went ___ the airport early.",
+      "correct_answer": "to"
+    }
+  ]
+}
