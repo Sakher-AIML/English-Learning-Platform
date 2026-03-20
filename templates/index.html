@@ -54,7 +54,7 @@
 <section class="card">
     <div class="section-head">
         <h3>Continue Learning</h3>
-        <a class="btn btn-primary" href="{{ url_for('lessons') }}">Continue Learning</a>
+        <a class="btn btn-primary" href="/lessons">Continue Learning</a>
     </div>
     <p class="small mb-0">Beginner lesson completion: {{ completed_lessons or 0 }}</p>
 </section>
@@ -89,7 +89,7 @@
 
                 {% if level.unlocked %}
                     <a class="btn btn-primary"
-                       href="{{ url_for('lessons') if level.slug == 'beginner' else url_for('lesson', level=level.slug) }}"
+                       href="/lessons"
                        style="width:100%;text-align:center">
 
                         {% if level.completion == 0 %}Start
@@ -112,7 +112,7 @@
 <section class="card">
     <div class="section-head">
         <h3>🗓️ Recent Attempts</h3>
-        <a class="btn btn-ghost" href="{{ url_for('analytics') }}">📈 Full Analytics</a>
+        <a class="btn btn-ghost" href="/analytics">📈 Full Analytics</a>
     </div>
 
     {% if recent_attempts %}
