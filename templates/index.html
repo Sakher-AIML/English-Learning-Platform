@@ -5,12 +5,13 @@
 {% block content %}
 <!-- Welcome -->
 <section class="card welcome-card">
-    <div>
-        <p class="eyebrow">Your Learning Hub</p>
-        <h2>Welcome back, {{ username }} 👋</h2>
-        <p>Here's a snapshot of your progress. Keep the momentum going!</p>
-    </div>
-    <div class="welcome-avatar">{{ username[0]|upper }}</div>
+   <div>
+    <p class="eyebrow">Your Learning Hub</p>
+    <h2>Welcome back, Guest 👋</h2>
+    <p>Here's a snapshot of your progress. Keep the momentum going!</p>
+  </div>
+
+<div class="welcome-avatar">G</div>
 </section>
 
 <!-- Stats -->
@@ -18,10 +19,10 @@
     <article class="card stat-card">
         <span class="stat-icon">📊</span>
         <p class="stat-label">Overall Completion</p>
-        <h3 class="stat-value text-primary">{{ overall_completion }}%</h3>
-        <div class="progress-line">
-            <span class="progress-fill" data-progress="{{ overall_completion }}"></span>
-        </div>
+         <h3 class="stat-value text-primary">0%</h3>
+         <div class="progress-line">
+          <span class="progress-fill" data-progress="0"></span>
+          </div>
     </article>
     <article class="card stat-card">
         <span class="stat-icon">📖</span>
